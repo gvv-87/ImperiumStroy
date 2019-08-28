@@ -1,0 +1,166 @@
+﻿@using AutoMapper.Internal
+@using ClientDependency.Core.Mvc
+@using Umbraco.Core.Security
+@inherits UmbracoViewPage
+
+
+@functions {
+
+    public class ErrorItem
+    {
+        public string TypeName { get; set; }
+        public string Description { get; set; }
+        public string Icon { get; set; }
+        public string ClassName { get; set; }
+    }
+
+    private IEnumerable<ErrorItem> CheckForWarnings()
+    {
+        var result = new List<ErrorItem>();
+
+        if (Model.IsComposedOf(SeoBase.ModelTypeAlias) && (Model as ISeoBase).SeoNoIndex)
+        {
+            result.Add(new ErrorItem() { TypeName = "SEO:", ClassName = "error", Icon = "bad", Description = "Страница закрыта для индексации поисковыми роботами" });
+        }
+
+        if (Model.IsComposedOf(SeoBase.ModelTypeAlias) && (Model as ISeoBase).SeoNoFollow)
+        {
+            result.Add(new ErrorItem() { TypeName = "SEO:", ClassName = "error", Icon = "bad", Description = "Поисковым роботам запрещен переход по ссылкам на странице" });
+        }
+
+        if (Model.IsComposedOf(SeoBase.ModelTypeAlias) && (Model as ISeoBase).SeoTitle.IsNullOrWhiteSpace())
+        {
+            result.Add(new ErrorItem() { TypeName = "SEO:", ClassName = "error", Icon = "bad", Description = "Не указан title страницы. Используется имя страницы" });
+        }
+
+        if (Model.IsComposedOf(SeoBase.ModelTypeAlias) && (Model as ISeoBase).SeoMetaDescription.IsNullOrWhiteSpace())
+        {
+            result.Add(new ErrorItem() { TypeName = "SEO:", ClassName = "error", Icon = "bad", Description = "Не указан description страницы" });
+        }
+
+        var content = ApplicationContext.Services.ContentService.GetById(Model.Id);
+        if (content.PublishedVersionGuid != content.Version)
+        {
+            result.Add(new ErrorItem() { TypeName = "Hint:", ClassName = "error", Icon = "bad", Description = "Последняя сохраненная версия страницы не опубликована!" });
+        }
+
+        return result;
+    }
+
+}
+
+@{
+    var userTicket = new System.Web.HttpContextWrapper(System.Web.HttpContext.Current).GetUmbracoAuthTicket();
+
+    if (userTicket != null)
+    {
+        var currentUser = ApplicationContext.Services.UserService.GetByUsername(userTicket.Name);
+        if (!String.IsNullOrEmpty(currentUser.UserType.Alias) && currentUser.UserType.Alias == "admin")
+        {
+
+
+            <link rel="stylesheet" href="~/App_Plugins/WeBugtracker/css/bugtracker.css" />
+
+            var warnings = CheckForWarnings().ToArray();
+
+            <div class="bugtracker @(warnings.Any(x=>x.ClassName == "info") ? "info": null) @(warnings.Any(x=>x.ClassName == "error") ? "error": null)">
+                <span class="bugtracker-id">id: <b>@Model.Id</b></span>
+                <a href="#" class="bugtracker-close"></a>
+                <div class="bugtracker-container">
+                    <div class="bugtracker-nav">
+                        <a href="#" class="active">Ошибки (@warnings.Length)</a>
+                        <a href="#">Мета теги</a>
+                    </div>
+
+                    <div class="bugtracker-content">
+                        <div class="bugtracker-tab active">
+                            @foreach (var item in warnings)
+                            {
+                                <a href="/umbraco#/content/content/edit/@Model.Id" target="_blank" class="@item.ClassName">
+                                    <i class="@item.Icon"></i>
+                                    <p>
+                                        <strong>@item.TypeName</strong> @Html.Raw(item.Description)
+                                    </p>
+                                    <span class="action">Исправить</span>
+                                </a>
+                            }
+                        </div>
+                        <div class="bugtracker-tab">
+                            <a href="/umbraco#/content/content/edit/@Model.Id" target="_blank" class="tag">
+                                <p><strong>Title:</strong> @Umbraco.Coalesce(Model.IsComposedOf(SeoBase.ModelTypeAlias) ? (Model as ISeoBase).SeoTitle : null, Model.Name)</p>
+                                <span class="action">Изменить</span>
+                            </a>
+                            @if (Model.IsComposedOf(SeoBase.ModelTypeAlias))
+                            {
+                                if ((Model as ISeoBase).SeoMetaDescription.IsNullOrWhiteSpace())
+                                {
+                                    <a href="/umbraco#/content/content/edit/@Model.Id" target="_blank" class="tag missed">
+                                        <p><strong>Description:</strong> Не заполнен</p>
+                                        <span class="action">Исправить</span>
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="/umbraco#/content/content/edit/@Model.Id" target="_blank" class="tag">
+                                        <p>
+                                            <strong>Description:</strong> @((Model as ISeoBase).SeoMetaDescription)
+                                        </p>
+                                        <span class="action">Изменить</span>
+                                    </a>
+                                }
+
+                                var keywords = Model as IKeywordsBase;
+                                if (keywords != null && keywords.SeoKeywords.IsNullOrWhiteSpace())
+                                {
+                                    <a href="/umbraco#/content/content/edit/@Model.Id" target="_blank" class="tag missed">
+                                        <p><strong>Keywords:</strong> Не заполнен</p>
+                                        <span class="action">Исправить</span>
+                                    </a>
+                                }
+                                else if(keywords != null)
+                                {
+                                    <a href="/umbraco#/content/content/edit/@Model.Id"  target="_blank" class="tag">
+                                        <p>
+                                            <strong>Keywords:</strong> @keywords.SeoKeywords
+                                        </p>
+                                        <span class="action">Изменить</span>
+                                    </a>
+                                }
+                            }
+                        </div>
+                    </div>
+                    <div class="bugtracker-footer all">
+                        <a href="/umbraco#/content/content/edit/@Model.Id" target="_blank" class="content">
+                            <svg id="SvgjsSvg1000" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="17" height="12" viewBox="0 0 17 12"><defs id="SvgjsDefs1001"></defs><path id="SvgjsPath1007" d="M465 330V328H482V330Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-465,-328)"></path><path id="SvgjsPath1008" d="M465 335V333H482V335Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-465,-328)"></path><path id="SvgjsPath1009" d="M465 340V338H475V340Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-465,-328)"></path></svg>
+                            <span>Контент</span>
+                        </a>
+                        @if (currentUser.Name.ToLower() == "developer")
+                        {
+                            <a href="/umbraco#/settings/documentTypes/edit/@Model.DocumentTypeId" target="_blank" class="doctype">
+                                <svg width="27px" height="16px" viewBox="4867 5977 27 16" style="margin-top:-4px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Group-14" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(4868.000000, 5977.000000)">
+                                        <g id="Group-13" transform="translate(0.000000, 3.000000)" fill="#FFFFFF ">
+                                            <path d="M1.5,3.08578644 L4.41421356,0.171572875 L5.82842712,1.58578644 L2.91421356,4.5 L5.65685425,7.24264069 L4.24264069,8.65685425 L9.09494702e-13,4.41421356 L1.41421356,3 L1.5,3.08578644 Z" id="Combined-Shape"></path>
+                                        </g>
+                                        <g id="Group-13-Copy" transform="translate(22.000000, 7.500000) scale(-1, 1) translate(-22.000000, -7.500000) translate(19.000000, 3.000000)" fill="#FFFFFF ">
+                                            <path d="M1.5,3.08578644 L4.41421356,0.171572875 L5.82842712,1.58578644 L2.91421356,4.5 L5.65685425,7.24264069 L4.24264069,8.65685425 L9.09494702e-13,4.41421356 L1.41421356,3 L1.5,3.08578644 Z" id="Combined-Shape"></path>
+                                        </g>
+                                        <rect id="Rectangle-8-Copy" fill="#FFFFFF " transform="translate(12.265348, 8.000000) rotate(-60.000000) translate(-12.265348, -8.000000) " x="4" y="7" width="16.5306969" height="2"></rect>
+                                    </g>
+                                </svg>
+                                <span>doctype</span>
+                            </a>
+                            <a href="/umbraco#/settings/templates/edit/@Model.TemplateId" target="_blank" class="template">
+                                <svg id="SvgjsSvg1017" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="12" height="12" viewBox="0 0 12 12"><title>Group 5</title><desc>Created with Avocode.</desc><defs id="SvgjsDefs1018"></defs><path id="SvgjsPath1019" d="M657 340V335H662V340Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-657,-328)"></path><path id="SvgjsPath1020" d="M657 333V328H662V333Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-657,-328)"></path><path id="SvgjsPath1021" d="M664 333V328H669V333Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-657,-328)"></path><path id="SvgjsPath1022" d="M664 340V335H669V340Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-657,-328)"></path></svg>
+                                <span>шаблон</span>
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+            <script src="~/App_Plugins/WeBugtracker/js/jquery-3.3.1.slim.min.js"></script>
+            <script src="~/App_Plugins/WeBugtracker/js/jquery.scrollbar.min.js"></script>
+            <script src="~/App_Plugins/WeBugtracker/js/bugtracker.js"></script>
+        }
+    }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: http://YOURSITENAME.COM/sitemap
+Disallow: /aspnet_client/
+Disallow: /bin/
+Disallow: /config/
+Disallow: /umbraco/
+Disallow: /umbraco_client/

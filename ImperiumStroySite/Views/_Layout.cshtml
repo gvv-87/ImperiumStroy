@@ -1,0 +1,64 @@
+﻿@inherits ExtendedUmbracoViewPage<IPublishedContent>
+@using PoLibrary
+@using ClientDependency.Core.Mvc
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="@Model.GetCulture().TwoLetterISOLanguageName" ng-app="YOUR_APP_HERE">
+<head>
+    @Scripts.Head.Before
+    @Html.Partial("_SeoBlock")
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="~/assets/css/vendor/animate.css" />
+    <link rel="stylesheet" href="~/assets/css/screen.css" />
+    <link rel="stylesheet" href="~/assets/css/svg-symbols.css" />
+    @Html.RenderCssHere()
+    @Scripts.Head.After
+</head>
+
+<body class="@ViewBag.PageClass">
+    @Scripts.Body.Before
+    @Html.Partial("_Header")
+    @RenderBody()
+    
+
+    @Html.Partial("_Footer")
+    @Html.Partial("_DebugPanel")
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="~/assets/js/vendor/slick.min.js"></script>
+    <script src="~/assets/js/vendor/rellax.min.js"></script>
+    <script src="~/assets/js/vendor/jquery.maskedinput.min.js"></script>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script>
+        if ($.fn.validate)
+            $.validate({
+                lang: $('html').attr('lang'),
+                errorMessageClass: 'input-container__error',
+                scrollToTopOnError: false
+            });
+    </script>
+
+    <script src="~/assets/js/app.js"></script>
+    <script src="~/assets/js/anim.js"></script>
+    <script src="~/assets/js/vendor/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
+
+
+    @Html.RenderJsHere()
+    @Scripts.Body.After
+</body>
+</html>

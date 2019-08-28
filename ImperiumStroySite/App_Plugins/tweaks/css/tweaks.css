@@ -1,0 +1,4 @@
+﻿.login-overlay__background-image {
+    background-image: url(/App_Plugins/tweaks/images/admin_bg.png) !important;
+    opacity: 1 !important;
+}

@@ -1,0 +1,60 @@
+﻿@inherits UmbracoViewPage<IPublishedContent>
+
+@{
+    var seo = Model as ISeoBase;
+}
+
+@if (seo != null)
+{
+    // TITLE
+    if (!seo.SeoTitle.IsNullOrWhiteSpace())
+    {
+        <title>@seo.SeoTitle</title>
+    }
+    else
+    {
+        <title>@Model.NavigationTitle()</title>
+    }
+
+    // DESCRIPTION
+    if (!seo.SeoMetaDescription.IsNullOrWhiteSpace())
+    {
+        <meta name="description" content="@seo.SeoMetaDescription">
+    }
+
+    // KEYWORDS [Deprecated]
+    if (Model is IKeywordsBase)
+    {
+        IKeywordsBase keywords = Model as IKeywordsBase;
+        if (!keywords.SeoKeywords.IsNullOrWhiteSpace())
+        {
+            <meta name="keywords" content="@keywords.SeoKeywords" />
+        }
+    }
+
+    // ROBOTS
+    if (seo.SeoNoIndex || seo.SeoNoFollow)
+    {
+        if (seo.SeoNoIndex & seo.SeoNoFollow)
+        {
+            <meta name="robots" content="noindex, nofollow" />
+        }
+        else
+        {
+            if (seo.SeoNoIndex)
+            {
+                <meta name="robots" content="noindex, follow" />
+            }
+            if (seo.SeoNoFollow)
+            {
+                <meta name="robots" content="index, nofollow" />
+            }
+        }
+    }
+
+    // CANONICAL
+    <link rel="canonical" href="@seo.UrlWithDomain()" />
+
+    // LANGUAGES
+    // TODO: Сделать вывод ссылок на альтеранативные языки
+}

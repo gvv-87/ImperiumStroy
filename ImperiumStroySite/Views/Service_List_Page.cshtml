@@ -1,0 +1,191 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<main>
+    <section class="top-block-default">
+        <div class="top-block-default__bg rellax-bg">
+            <div class="rellax-item" data-rellax-speed="-6"
+                 style="background-image: url(/assets/images/content/services-top.png);"></div>
+        </div>
+        <div class="wrapper">
+            <ul class="breadcrumbs">
+                <li><a href="/main_page/">Главная</a></li>
+                <li><a href="#">Услуги</a></li>
+            </ul>
+
+            <div class="top-block-default__text">
+                <h1>Заказать <span class="colored">ремонт квартиры, дома или офиса</span> в Санкт-Петербурге</h1>
+                <p>
+                    На этой странице вы узнаете, по каким тарифам мы работаем и ремонт каких типов помещений можно у нас
+                    заказать.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="block-service">
+        <div class="wrapper">
+            <div class="block-service__row">
+                <div class="block-service__img">
+                    <div class="img">
+                        <img src="~/assets/images/content/service5.png" alt="alt">
+                    </div>
+                    <div class="icon">
+                        <svg class="icon icon-service-donation"><use xlink:href="~/assets/images/svg-symbols.svg#icon-service-donation"></use></svg>
+                    </div>
+                </div>
+                <div class="text-block block-service__text">
+                    <h2>
+                        У нас выгодно заказывать
+                        ремонт квартиры, дома
+                        или офиса
+                    </h2>
+                    <p>Поможем с выбором стройматериалов, учтем в работе все ваши пожелания, будем работать исключительно в&nbsp;рамках сметы и сделаем все в срок. Также оказываем помощь при приемке квартир и осуществляем контроль чистовых материалов.</p>
+                    <p>При заказе комплексного ремонта <span class="colored">дарим подарок на&nbsp;выбор:</span></p>
+                    <ul>
+                        <li>Технический дизайн помещения</li>
+                        <li>Вывоз строительного мусора</li>
+                        <li>Скидка за каждый день просрочки</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block-default main-tabs-block">
+        <div class="wrapper">
+            <h2>
+                Сколько будет стоить
+                ремонт вашего жилья?
+            </h2>
+
+
+            <div class="main-tabs-block__images slick-slider rellax-bigonly" data-rellax-speed="2" data-rellax-percentage="0.5" data-slick="mainTabsBlockImages" id="mainTabsBlockImages">
+                <div class="slick-item">
+                    <img src="~/assets/images/content/mainTab1.png" alt="alt">
+                    <span>Этот тариф подойдет тем, кто хочет получить качественный результат, но&nbsp;ограничен в бюджете.</span>
+                </div>
+                <div class="slick-item">
+                    <img src="~/assets/images/content/mainTab2.png" alt="alt">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dolores.</span>
+                </div>
+            </div>
+
+            <div class="main-tabs-block__text slick-slider slick-tabbed" data-slick="mainTabsBlockText"
+                 id="mainTabsBlockText">
+                <div class="slick-item" data-slick-tab="Стандарт">
+                    <p>Какие работы мы можем выполнить по&nbsp;тарифу <a href="#">стандарт:</a></p>
+                    <ul>
+                        <li><a href="#">поклейка обоев</a></li>
+                        <li><a href="#">укладка паркетной доски или ламината</a></li>
+                        <li><a href="#">установка натяжных потолков</a></li>
+                        <li><a href="#">укладка плитки</a></li>
+                        <li><a href="#">покраска потолков</a></li>
+                        <li><a href="#">поклейка обоев</a></li>
+                        <li><a href="#">укладка паркетной доски или ламината</a></li>
+                        <li><a href="#">установка натяжных потолков</a></li>
+                        <li><a href="#">укладка плитки</a></li>
+                        <li><a href="#">покраска потолков</a></li>
+                        <li><a href="#">покраска потолков</a></li>
+                        <li><a href="#">поклейка обоев</a></li>
+                        <li><a href="#">укладка паркетной доски или ламината</a></li>
+                        <li><a href="#">установка натяжных потолков</a></li>
+                        <li><a href="#">укладка плитки</a></li>
+                        <li><a href="#">покраска потолков</a></li>
+                    </ul>
+                    <div class="foot">
+                        <p>
+                            <small>до</small>
+                            <span>10 000₽</span> за 1 м<sup>2</sup>
+                        </p>
+                    </div>
+                </div>
+                <div class="slick-item" data-slick-tab="Премиум">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis eveniet incidunt
+                        ipsam iste iure nostrum omnis quas quasi quia?
+                    </p>
+                    <ul>
+                        <li>поклейка обоев</li>
+                        <li>укладка паркетной доски или ламината</li>
+                        <li>установка натяжных потолков</li>
+                        <li>укладка плитки</li>
+                        <li>покраска потолков и еще <a href="#">16 позиций</a></li>
+                    </ul>
+                    <div class="foot">
+                        <p>
+                            <small>до</small>
+                            <span>10 000₽</span> за 1 м<sup>2</sup>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block-default realty-list-block">
+        <div class="wrapper">
+            <header class="block-default__header">
+                <h2>Какую недвижимость <span class="colored">мы&nbsp;ремонтируем?</span></h2>
+                <p>
+                    Любую. У нас есть опыт работы с разными объектами: от одиночных комнат до больших загородных
+                    коттеджей.
+                </p>
+            </header>
+
+            <div class="realty-list-block__container">
+                <!-- Картинки в этом блоке могут быть одинаковые. Их размер задаст ксс -->
+                <a href="#" class="realty-list-block__item">
+                    <span class="img">
+                        <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="~/assets/images/content/realty/1.png" alt="alt">
+                    </span>
+                    <span class="title">Ремонт квартиры</span>
+                    <span class="desc">Придадим вашему жилью индивидуальный стиль и учтем все ваши пожелания.</span>
+                </a>
+                <a href="#" class="realty-list-block__item">
+                    <span class="img">
+                        <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="~/assets/images/content/realty/2.png" alt="alt">
+                    </span>
+                    <span class="title">Ремонт коммерческого помещения</span>
+                    <span class="desc">Сделаем ремонт в офисе, магазине, кафе и других помещениях для вашего бизнеса. </span>
+                </a>
+                <a href="#" class="realty-list-block__item">
+                    <span class="img">
+                        <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="~/assets/images/content/realty/3.png" alt="alt">
+                    </span>
+                    <span class="title">Ремонт частного дома</span>
+                    <span class="desc">Воплотим в реальность ваши фантазии о доме мечты. Сделаем такой ремонт, чтобы вы чувствовали себя в доме максимально комфортно.</span>
+                </a>
+                <a href="#" class="realty-list-block__item">
+                    <span class="img">
+                        <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="~/assets/images/content/realty/4.png" alt="alt">
+                    </span>
+                    <span class="title">Ремонт комнаты</span>
+                    <span class="desc">Если вы еще не готовы к полному ремонту своего жилья, мы можем выполнить ремонт в одной из комнат.</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="callback-block">
+        <div class="bg" style="background-image: url(/assets/images/content/callback-bg.png);"></div>
+        <div class="wrapper">
+            <form action="#" class="form-default">
+                <div class="form-default__message">
+                    <p>Ваше сообщение успешно отправлено!</p>
+                </div>
+                <div>
+                    <header>
+                        <h2>У вас остались вопросы?</h2>
+                        <p>Оставьте свой номер телефона и мы вам поможем</p>
+                    </header>
+                    <div>
+                        <label class="input-container">
+                            <input type="tel" placeholder="Ваш номер телефона">
+                        </label>
+                        <button class="button-default inline" type="submit">оставить заявку</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+

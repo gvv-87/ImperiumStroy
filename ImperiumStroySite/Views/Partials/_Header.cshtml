@@ -1,0 +1,70 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@{ 
+    var homePage              = Model.AncestorOrSelf<HomePage>();
+    var navigation            = homePage.VisibleChildren();
+    var urlОКомпании          = navigation.Where(x => x is AboutPage).First().Url;
+    var urlServiceList        = navigation.Where(x => x is Service_List_Page).First().Url;
+    var urlКонтакты           = navigation.Where(x => x is Contacts).First().Url;
+    var urlServiceCategory    = navigation.Where(x => x is Service_Category_Page).First().Url;
+    var urlВыполненныеПроекты = navigation.Where(x => x is Projects).First().Url;
+
+}
+
+<header class="page-header" id="pageHeader">
+    <div class="page-header__main">
+        <div class="wrapper">
+            <button class="burger" id="menuBurger"></button>
+            <a href="@homePage.Url" class="logo">Imperio-Stroy</a>
+
+            <div class="links for-big">
+                <a href="@urlServiceList">ремонт квартиры</a>
+                <a href="#">ремонт дома</a>
+            </div>
+
+            <button class="callback not-small">оставить заявку</button>
+
+            <div class="phone not-small">
+                <a href="tel:89516664146">+ 7 951 666-41-46</a>
+            </div>
+        </div>
+    </div>
+    <div class="page-header__menu">
+        <div class="wrapper">
+            <button class="menu-close" id="menuClose"><span>Закрыть</span></button>
+
+            <div class="menu-section">
+                <nav class="first-menu">
+                    <ul>
+                        <li><a href="@urlServiceCategory">ремонт <span>Квартир</span></a></li>
+                        <li><a href="#">ремонт <span>Комнат</span></a></li>
+                        <li><a href="#">ремонт <span>Частных домов</span></a></li>
+                        <li><a href="#">ремонт <span>Нежилых помещений</span></a></li>
+                    </ul>
+                </nav>
+                <nav class="second-menu">
+                    <ul>
+                        <li><a href="@urlВыполненныеПроекты">Выполненые проекты</a></li>
+                        <li><a href="@urlServiceList">Тарифы и стоимость</a></li>
+                        <li><a href="#">Полезные статьи</a></li>
+                        <li><a href="@urlОКомпании">О нас</a></li>
+                        <li><a href="@urlКонтакты">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contacts">
+                <p><a href="tel:89516664146">+ 7 951 666-41-46</a></p>
+                <p><a href="tel:89117153259">+ 7 911 715-32-59</a></p>
+                <p><a href="mailto:info@imperio-stroy.ru">info@imperio-stroy.ru</a></p>
+
+                <div class="social-icons">
+                    <a href="#"><svg class="icon icon-inst"><use xlink:href="~/assets/images/svg-symbols.svg#icon-inst"></use></svg></a>
+                    <a href="#"><svg class="icon icon-fb"><use xlink:href="~/assets/images/svg-symbols.svg#icon-fb"></use></svg></a>
+                    <a href="#"><svg class="icon icon-vk"><use xlink:href="~/assets/images/svg-symbols.svg#icon-vk"></use></svg></a>
+                </div>
+
+                <button class="callback not-small">оставить заявку</button>
+            </div>
+        </div>
+    </div>
+</header>
+

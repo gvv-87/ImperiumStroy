@@ -1,0 +1,861 @@
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csprojAssemblyReference.cache
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CoreCompileInputs.cache
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll.config
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\cms.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\controls.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Log4Net.Async.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\log4net.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\MarkdownSharp.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\MySql.Data.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Owin.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Semver.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.Entity.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\TidyNet.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.dll
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\cms.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\controls.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.pdb
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.xml
+C:\PureUmbracoSolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CopyComplete
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll.config
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\cms.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\controls.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Log4Net.Async.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\log4net.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\MarkdownSharp.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\MySql.Data.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Owin.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Semver.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.Entity.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\TidyNet.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\cms.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\controls.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CopyComplete
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.PublishedContentModels.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll.config
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\cms.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\controls.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Log4Net.Async.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\log4net.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MarkdownSharp.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MySql.Data.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Owin.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Semver.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.Entity.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\TidyNet.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.PublishedContentModels.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\cms.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\controls.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.pdb
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.xml
+C:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csprojAssemblyReference.cache
+C:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CoreCompileInputs.cache
+C:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CopyComplete
+C:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.dll
+C:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll.config
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\cms.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\controls.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Log4Net.Async.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\log4net.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\MarkdownSharp.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\MySql.Data.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Owin.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Semver.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.Entity.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\TidyNet.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.PublishedContentModels.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\cms.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\controls.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CopyComplete
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.pdb
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Helpers.resources.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Admin\source\repos\20190320 PureUmbracoSolution backup\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Helpers.resources.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.pdb
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Admin\source\repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll.config
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\cms.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\controls.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Log4Net.Async.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\log4net.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MarkdownSharp.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MySql.Data.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Owin.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Semver.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.Entity.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\TidyNet.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.PublishedContentModels.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\cms.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\controls.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.ValueTuple.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.pdb
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.xml
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Helpers.resources.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Mvc.resources.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Razor.resources.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.resources.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csprojAssemblyReference.cache
+D:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CoreCompileInputs.cache
+D:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CopyComplete
+D:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.dll
+D:\Repos\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll.config
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\PoLibrary.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\cms.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\controls.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Log4Net.Async.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\log4net.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\MarkdownSharp.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\MySql.Data.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Owin.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Semver.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Data.SqlServerCe.Entity.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\TidyNet.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.PublishedContentModels.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\AutoMapper.Net4.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\businesslogic.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\cms.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\controls.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Examine.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\HtmlAgilityPack.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ImageProcessor.Web.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\interfaces.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Lucene.Net.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\MiniProfiler.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\SQLCE4Umbraco.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Helpers.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Http.WebHost.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Mvc.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.Razor.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Core.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.DataLayer.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.editorControls.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.MacroEngines.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\umbraco.providers.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.Web.UI.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\UmbracoExamine.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Collections.Immutable.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\System.Reflection.Metadata.xml
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csprojAssemblyReference.cache
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CoreCompileInputs.cache
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.csproj.CopyComplete
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.dll
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\obj\Debug\PoLibrary.pdb
+C:\$00  ООО  WebEvolution\PureUmbracoSolution\PoLibrary\bin\Debug\App_Data\NuGetBackup\20190205-144834\bin\Debug\AutoMapper.Net4.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\App_Data\NuGetBackup\20190205-144834\bin\Debug\AutoMapper.Net4.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\PoLibrary.dll.config
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\PoLibrary.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\PoLibrary.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\AutoMapper.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\AutoMapper.Net4.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\businesslogic.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ClientDependency.Core.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\cms.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\controls.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Examine.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\HtmlAgilityPack.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ImageProcessor.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ImageProcessor.Web.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\interfaces.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Log4Net.Async.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\log4net.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Lucene.Net.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\MarkdownSharp.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Security.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\MiniProfiler.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\MySql.Data.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Owin.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Semver.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\SQLCE4Umbraco.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Data.SqlServerCe.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Data.SqlServerCe.Entity.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Net.Http.Formatting.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Helpers.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Http.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Http.WebHost.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Mvc.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Razor.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.WebPages.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\TidyNet.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Umbraco.Core.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.DataLayer.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.editorControls.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.MacroEngines.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.providers.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Umbraco.Web.PublishedContentModels.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Umbraco.Web.UI.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\UmbracoExamine.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Collections.Immutable.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Reflection.Metadata.dll
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\AutoMapper.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\AutoMapper.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\AutoMapper.Net4.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\businesslogic.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ClientDependency.Core.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ClientDependency.Core.Mvc.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\cms.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\controls.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Examine.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\HtmlAgilityPack.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\HtmlAgilityPack.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ImageProcessor.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ImageProcessor.Web.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\interfaces.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Lucene.Net.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Security.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\MiniProfiler.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\MiniProfiler.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\SQLCE4Umbraco.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Net.Http.Formatting.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Threading.Tasks.Dataflow.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Helpers.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Http.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Http.WebHost.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Mvc.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.Razor.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.WebPages.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Umbraco.Core.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.DataLayer.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.editorControls.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.MacroEngines.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\umbraco.providers.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Umbraco.Web.UI.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\UmbracoExamine.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Umbraco.ModelsBuilder.pdb
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Collections.Immutable.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\System.Reflection.Metadata.xml
+D:\$00 ImperiumStroy\PoLibrary\bin\Debug\ru\System.Web.Mvc.resources.dll
+D:\$00 ImperiumStroy\PoLibrary\obj\Debug\PoLibrary.csproj.CoreCompileInputs.cache
+D:\$00 ImperiumStroy\PoLibrary\obj\Debug\PoLibrary.csproj.CopyComplete
+D:\$00 ImperiumStroy\PoLibrary\obj\Debug\PoLibrary.dll
+D:\$00 ImperiumStroy\PoLibrary\obj\Debug\PoLibrary.pdb
+D:\$00 ImperiumStroy\PoLibrary\obj\Debug\PoLibrary.csprojAssemblyReference.cache

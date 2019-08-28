@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImperiumStroy", "ImperiumStroySite\ImperiumStroy.csproj", "{2849A39E-3C73-4300-8DBC-CCE6E4B4CB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoLibrary", "PoLibrary\PoLibrary.csproj", "{AA35E4C0-DBD6-41CE-B3B5-3E88FA0DFD6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2849A39E-3C73-4300-8DBC-CCE6E4B4CB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2849A39E-3C73-4300-8DBC-CCE6E4B4CB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2849A39E-3C73-4300-8DBC-CCE6E4B4CB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2849A39E-3C73-4300-8DBC-CCE6E4B4CB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA35E4C0-DBD6-41CE-B3B5-3E88FA0DFD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA35E4C0-DBD6-41CE-B3B5-3E88FA0DFD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA35E4C0-DBD6-41CE-B3B5-3E88FA0DFD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA35E4C0-DBD6-41CE-B3B5-3E88FA0DFD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D326DAB8-715F-4182-8735-A915425824BD}
+	EndGlobalSection
+EndGlobal

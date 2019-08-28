@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@using System.Linq;
+@{
+    Layout = null;
+    Response.ContentType = "text/xml";
+    // ВАЖНО!! До блока xml не должно быть пробелов, иначе не будет работать!!!
+}<?xml version='1.0' encoding='UTF-8' ?>
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+     @foreach (var root in Umbraco.TypedContentAtRoot().Where(page => page is HomePage))
+     {
+     <url>
+         <loc>@root.UrlAbsolute()</loc>
+         <lastmod>@root.UpdateDate.ToIsoString()</lastmod>
+     </url>
+         // Проходим по всем потомкам корневого узла, которые помечены как ISitemapBase
+         foreach (var descendant in root.Descendants<ISitemapBase>().Where(page => page.ExcludeFromSitemap != true))
+         {
+             <url>
+                 <loc>@descendant.UrlAbsolute()</loc>
+                 <lastmod>@descendant.UpdateDate.ToIsoString()</lastmod>                            
+             </url>
+         }
+     }
+ </urlset>

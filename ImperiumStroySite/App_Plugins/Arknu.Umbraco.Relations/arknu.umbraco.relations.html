@@ -1,0 +1,23 @@
+﻿<div ng-controller="Arknu.Umbraco.Relations.Controller" class="umb-editor umb-contentpicker">
+    <div ng-model="model.items">
+        <umb-node-preview ng-repeat="node in model.items"
+                          icon="node.icon"
+                          name="node.name"
+                          published="node.published"
+                          description="node.url"
+                          sortable="false"
+                          allow-remove="true"
+                          allow-open="model.config.showOpenButton"
+                          on-remove="remove($index)"
+                          on-open="openMiniEditor(node)">
+        </umb-node-preview>
+    </div>
+
+    <a ng-show="model.config.multiPicker === true && model.items.length < model.config.maxNumber || renderModel.length === 0 || !model.config.maxNumber"
+       class="umb-node-preview-add"
+       href=""
+       ng-click="openContentPicker()"
+       prevent-default>
+        <localize key="general_add">Add</localize>
+    </a>
+</div>

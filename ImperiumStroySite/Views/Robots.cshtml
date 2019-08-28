@@ -1,0 +1,47 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Robots>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = null;
+    Response.ContentType = "text/plain";
+    IPublishedContent sitemap = Umbraco.TypedContentSingleAtXPath("root/sitemap");
+    IEnumerable<IPublishedContent> errorPages = Umbraco.TypedContentAtXPath("root/homePage/errorPage");
+    string host = Request.Url.Host;
+}
+@if (Model.IsDisallowed)
+{
+    @("# Индексация сайта полностью запрещена" + "\n")
+    @("User-agent: *" + "\n")
+    @("Disallow: /" + "\n")
+}
+else
+{
+    if (Model.IsManual)
+    {
+        @("# robots.txt заполнен вручную" + "\n")
+        @(Model.RobotsContent)
+    }
+    else
+    {
+        @("# robots.txt заполнен автоматически" + "\n")
+        @("User-agent: *" + "\n")
+        @("Allow: /" + "\n")
+        @("Disallow: /umbraco" + "\n")
+        @("Disallow: /umbraco_client" + "\n")
+        @("Disallow: /aspnet_client" + "\n")
+        @("Disallow: /config" + "\n")
+        @("Disallow: /install" + "\n")
+        @("Disallow: /bin" + "\n")
+
+        foreach (var ep in errorPages)
+        {
+            @("Disallow: " + ep.Url + "\n")
+        }
+
+        @("Host: " + host + "\n")
+
+        if (sitemap != null)
+        {
+            @("Sitemap: " + sitemap.UrlAbsolute() + "\n")
+        }
+    }
+}
