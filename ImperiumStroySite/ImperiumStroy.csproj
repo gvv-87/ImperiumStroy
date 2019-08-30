@@ -1912,7 +1912,7 @@
     </None>
     <Content Include="Views\Web.config" />
     <Content Include="Views\Sitemap.cshtml" />
-    <Content Include="Views\HomePage.cshtml" />
+    <Content Include="Views\Home_Page.cshtml" />
     <Content Include="Views\Partials\_DebugPanel.cshtml" />
     <Content Include="Views\Partials\_SeoBlock.cshtml" />
     <Content Include="Views\Partials\_FeedbackLetter.cshtml" />
@@ -2152,9 +2152,12 @@
     <Content Include="uSync\data\Template\_layout\homepage\HomePage.config" />
     <Content Include="uSync\data\Template\_layout\Layout.config" />
     <Content Include="uSync\data\uSyncActions.config" />
-    <Content Include="Views\AboutPage.cshtml" />
-    <Content Include="Views\DocType_1.cshtml" />
+    <Content Include="Views\About_Page.cshtml" />
     <Content Include="Views\Service_List_Page.cshtml" />
+    <Content Include="Views\Service_Category_Page.cshtml" />
+    <Content Include="Views\Contacts_Page.cshtml" />
+    <Content Include="Views\Projects_Page.cshtml" />
+    <Content Include="Views\Service_Item_Page.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

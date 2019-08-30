@@ -1,13 +1,14 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
 @{ 
-    var homePage              = Model.AncestorOrSelf<HomePage>();
+    var homePage              = Model.AncestorOrSelf<Home_Page>();
     var navigation            = homePage.VisibleChildren();
-    var urlОКомпании          = navigation.Where(x => x is AboutPage).First().Url;
+    var urlОКомпании          = navigation.Where(x => x is About_Page).First().Url;
     var urlServiceList        = navigation.Where(x => x is Service_List_Page).First().Url;
-    var urlКонтакты           = navigation.Where(x => x is Contacts).First().Url;
+    var urlКонтакты           = navigation.Where(x => x is Contacts_Page).First().Url;
     var urlServiceCategory    = navigation.Where(x => x is Service_Category_Page).First().Url;
-    var urlВыполненныеПроекты = navigation.Where(x => x is Projects).First().Url;
+    var urlВыполненныеПроекты = navigation.Where(x => x is Projects_Page).First().Url;
 
+    var abPage = navigation.Where(x => x is About_Page).First();
 }
 
 <header class="page-header" id="pageHeader">
@@ -46,7 +47,7 @@
                         <li><a href="@urlВыполненныеПроекты">Выполненые проекты</a></li>
                         <li><a href="@urlServiceList">Тарифы и стоимость</a></li>
                         <li><a href="#">Полезные статьи</a></li>
-                        <li><a href="@urlОКомпании">О нас</a></li>
+                        <li><a href="@abPage.Url">@abPage.NavigationTitle()</a></li>
                         <li><a href="@urlКонтакты">Контакты</a></li>
                     </ul>
                 </nav>

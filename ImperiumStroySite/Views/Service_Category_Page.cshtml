@@ -1,4 +1,5 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Service_Category_Page>
+
 @{
 	Layout = "_Layout.cshtml";
 }
@@ -7,7 +8,7 @@
     <section class="top-block-default">
         <div class="top-block-default__bg rellax-bg">
             <div class="rellax-item" data-rellax-speed="-6"
-                 style="background-image: url(/assets/images/content/apartment-top.png);"></div>
+                 style="background-image: url(@Model.HeaderBackgroundImage.ToSafeImage(width:1920).Url);"></div>
         </div>
         <div class="wrapper">
             <ul class="breadcrumbs">

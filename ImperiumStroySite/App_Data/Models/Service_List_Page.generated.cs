@@ -46,6 +46,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// HeaderBackgroundImage: Фоновая картинка заголовка страницы
+		///</summary>
+		[ImplementPropertyType("headerBackgroundImage")]
+		public IPublishedContent HeaderBackgroundImage
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("headerBackgroundImage"); }
+		}
+
+		///<summary>
 		/// Навигационный заголовок: Заголовок для навигационных элементов
 		///</summary>
 		[ImplementPropertyType("naviTitle")]

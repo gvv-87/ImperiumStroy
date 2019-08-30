@@ -1,10 +1,10 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
 
 @{ 
-    var homePage           = Model.AncestorOrSelf<HomePage>();
-    var navigation         = homePage.VisibleChildren();
-    var urlServisItem      = navigation.Where(x => x is Service_Item).First().Url;
-    var urlServiceCategory = navigation.Where(x => x is Service_Category_Page).First().Url;
+    var Главная                  = Model.AncestorOrSelf<Home_Page>();
+    var navigation               = Главная.VisibleChildren();
+    var urlРемонтКвартирыСтудии  = navigation.Where(x => x is Service_Item_Page).First().Url;
+    var urlВидыРемонтовКвартир   = navigation.Where(x => x is Service_Category_Page).First().Url;
 }
 
 <footer class="page-footer">
@@ -14,11 +14,11 @@
                 <div class="col">
                     <span class="title">Ремонт квартир</span>
                     <ul>
-                        <li><a href="@urlServisItem">Квартира-студия</a></li>
-                        <li><a href="@urlServiceCategory">1-комнатная квартира</a></li>
-                        <li><a href="@urlServiceCategory">2-комнатная квартира</a></li>
-                        <li><a href="@urlServiceCategory">3-комнатная квартира</a></li>
-                        <li><a href="@urlServiceCategory">4-комнатная квартира</a></li>
+                        <li><a href="@urlРемонтКвартирыСтудии">Квартира-студия</a></li>
+                        <li><a href="@urlВидыРемонтовКвартир">1-комнатная квартира</a></li>
+                        <li><a href="@urlВидыРемонтовКвартир">2-комнатная квартира</a></li>
+                        <li><a href="@urlВидыРемонтовКвартир">3-комнатная квартира</a></li>
+                        <li><a href="@urlВидыРемонтовКвартир">4-комнатная квартира</a></li>
                     </ul>
                 </div>
                 <div class="col">
