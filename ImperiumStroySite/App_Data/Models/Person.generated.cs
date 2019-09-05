@@ -20,9 +20,20 @@ using Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
+	// Mixin content Type 5156 with alias "person"
+	/// <summary>Person</summary>
+	public partial interface IPerson : IPublishedContent
+	{
+		/// <summary>FirstName</summary>
+		string FirstName { get; }
+
+		/// <summary>LastName</summary>
+		string LastName { get; }
+	}
+
 	/// <summary>Person</summary>
 	[PublishedContentModel("person")]
-	public partial class Person : PublishedContentModel
+	public partial class Person : PublishedContentModel, IPerson
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "person";
@@ -51,8 +62,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("firstName")]
 		public string FirstName
 		{
-			get { return this.GetPropertyValue<string>("firstName"); }
+			get { return GetFirstName(this); }
 		}
+
+		/// <summary>Static getter for FirstName</summary>
+		public static string GetFirstName(IPerson that) { return that.GetPropertyValue<string>("firstName"); }
 
 		///<summary>
 		/// LastName
@@ -60,7 +74,10 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("lastName")]
 		public string LastName
 		{
-			get { return this.GetPropertyValue<string>("lastName"); }
+			get { return GetLastName(this); }
 		}
+
+		/// <summary>Static getter for LastName</summary>
+		public static string GetLastName(IPerson that) { return that.GetPropertyValue<string>("lastName"); }
 	}
 }

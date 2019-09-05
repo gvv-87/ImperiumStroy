@@ -1,19 +1,49 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Service_Category_Page>
 
 @{
-	Layout = "_Layout.cshtml";
+    Layout = "_Layout.cshtml";
+    
+    var homePage                    = Model.AncestorOrSelf<Home_Page>();
+    var urlГлавная                  = homePage.Url;
+    var navigation                  = homePage.VisibleChildren();
+    var urlОКомпании                = navigation.Where(x => x is About_Page).First().Url;
+    var urlСписокУслуг              = navigation.Where(x => x is Service_List_Page).First().Url;
+    var urlРемонтКвСтудии           = navigation.Where(x => x is Service_Item_Page).First().Url;
+
+    var urlКонтакты                 = navigation.Where(x => x is Contacts_Page).First().Url;
+    var urlВидыРемонтовКвартир      = navigation.Where(x => x is Service_Category_Page).First().Url;
+    var urlВыполненныеПроекты       = navigation.Where(x => x is Projects_Page).First().Url;
+    var urlРемонт_1ккв              = navigation.Where(x => x is Repair_1kkv_Page).First().Url;
+    var urlРемонт_2ккв              = navigation.Where(x => x is Repair_2kkv_Page).First().Url;
+    var urlРемонт_3ккв              = navigation.Where(x => x is Repair_3kkv_Page).First().Url;
+    var urlРемонт_4ккв              = navigation.Where(x => x is Repair_4kkv_Page).First().Url;
+
+    var abPage                      = navigation.Where(x => x is About_Page).First();
+    
+    var urlКартинкаФонаЗаголовка    = Model.HeaderBackgroundImage.ToSafeImage(width: 1920).Url;
+    var urlНачальника               = abPage.GetPropertyValue("CompanyExecutivePicture").ToSafeImage().Url;
+    var urlПрораба                  = abPage.GetPropertyValue("ConstructionManagerPicture").ToSafeImage().Url;
+
+    var urlФото_1                   = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
+    var urlФото_2                   = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
+    var urlФото_3                   = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
+    var urlФото_4                   = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
+    var urlФото_5                   = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
+    var urlФото_6                   = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
+
+    var urlPhoto_Callback_bg        = abPage.GetPropertyValue("Photo_Callback_bg").ToSafeImage().Url;
 }
 
 <main>
     <section class="top-block-default">
         <div class="top-block-default__bg rellax-bg">
             <div class="rellax-item" data-rellax-speed="-6"
-                 style="background-image: url(@Model.HeaderBackgroundImage.ToSafeImage(width:1920).Url);"></div>
+                 style="background-image: url(@urlКартинкаФонаЗаголовка);"></div>
         </div>
         <div class="wrapper">
             <ul class="breadcrumbs">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
+                <li><a href="@urlГлавная">Главная</a></li>
+                <li><a href="@urlСписокУслуг">Услуги</a></li>
                 <li><a href="#">Ремонт квартиры</a></li>
             </ul>
 
@@ -28,7 +58,7 @@
                     <ul>
                         <li><a href="#apartmentRenovation" class="smooth-scroll">Ремонт квартир</a></li>
                         <li><a href="#serviceSteps" class="smooth-scroll">Порядок работы</a></li>
-                        <li><a href="#serviceAbout" class="smooth-scroll">О нас</a></li>
+                        <li><a href="@urlОКомпании" class="smooth-scroll">О нас</a></li>
                         <li><a href="#serviceExamples" class="smooth-scroll">Примеры работ</a></li>
                         <li><a href="#serviceTestimonials" class="smooth-scroll">Отзывы</a></li>
                         <li><a href="#faqBlock" class="smooth-scroll">FAQ</a></li>
@@ -40,8 +70,10 @@
     <section class="block-default realty-list-block" id="apartmentRenovation">
         <div class="wrapper">
             <header class="block-default__header">
-                <h2>Ремонт квартиры
-                    в&nbsp;Санкт Петербурге</h2>
+                <h2>
+                    Ремонт квартиры
+                    в&nbsp;Санкт Петербурге
+                </h2>
                 <p>У нас вы можете заказать ремонт любой типовой квартиры:</p>
                 <div class="numbers">
                     <p>
@@ -61,7 +93,7 @@
 
             <div class="realty-list-block__container">
                 <!-- Картинки в этом блоке могут быть одинаковые. Их размер задаст ксс -->
-                <a href="#" class="realty-list-block__item">
+                <a href="@urlРемонтКвСтудии" class="realty-list-block__item">
                     <span class="img">
                         <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5"
                              src="~/assets/images/content/realty/apartment1.png" alt="alt">
@@ -69,7 +101,7 @@
                     <span class="title">Ремонт квартиры-студии</span>
                     <span class="desc">Даже небольшое помещение мы сможем сделать удобным и эргономичным.</span>
                 </a>
-                <a href="#" class="realty-list-block__item">
+                <a href="@urlРемонт_1ккв" class="realty-list-block__item">
                     <span class="img">
                         <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5"
                              src="~/assets/images/content/realty/apartment2.png" alt="alt">
@@ -77,7 +109,7 @@
                     <span class="title">Ремонт 1-комнатной квартиры</span>
                     <span class="desc">Сделаем качественный ремонт и подскажем, как можно сэкономить</span>
                 </a>
-                <a href="#" class="realty-list-block__item">
+                <a href="@urlРемонт_2ккв" class="realty-list-block__item">
                     <span class="img">
                         <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5"
                              src="~/assets/images/content/realty/apartment3.png" alt="alt">
@@ -85,7 +117,7 @@
                     <span class="title">Ремонт 2-комнатной квартиры</span>
                     <span class="desc">Грамотно разграничим разные зоны в квартире: для игр, отдыха и т.д.</span>
                 </a>
-                <a href="#" class="realty-list-block__item">
+                <a href="@urlРемонт_3ккв" class="realty-list-block__item">
                     <span class="img">
                         <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5"
                              src="~/assets/images/content/realty/apartment4.png" alt="alt">
@@ -93,7 +125,7 @@
                     <span class="title">Ремонт 3-комнатной квартиры</span>
                     <span class="desc">Сделаем классический вариант “гостиная, детская, спальня” или предложим индивидуальный проект</span>
                 </a>
-                <a href="#" class="realty-list-block__item">
+                <a href="@urlРемонт_4ккв" class="realty-list-block__item">
                     <span class="img">
                         <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5"
                              src="~/assets/images/content/realty/apartment5.png" alt="alt">
@@ -104,6 +136,7 @@
             </div>
         </div>
     </section>
+    
     <section class="block-service">
         <div class="wrapper">
             <div class="block-service__row">
@@ -117,10 +150,13 @@
                 </div>
                 <div class="text-block block-service__text">
                     <h2>Пора делать ремонт?</h2>
-                    <p>Вы купили студию в новостройке, а в ней <span class="colored">только голые стены и разводка труб в ванне?</span>
+                    <p>
+                        Вы купили студию в новостройке, а в ней <span class="colored">только голые стены и разводка труб в ванне?</span>
                     </p>
-                    <p>Или, может, вы хотите обновить ремонт студии, чтобы сделать ее более просторной и комфортной? В
-                        любом случае обращайтесь к нам — решим любую вашу задачу по ремонту студии.</p>
+                    <p>
+                        Или, может, вы хотите обновить ремонт студии, чтобы сделать ее более просторной и комфортной? В
+                        любом случае обращайтесь к нам — решим любую вашу задачу по ремонту студии.
+                    </p>
                     <footer>
                         <button class="button-default inline" data-modal="#calcModal">рассчитать ремонт</button>
                     </footer>
@@ -178,20 +214,27 @@
             <div class="main-about-block__text">
                 <h2>Пара слов о&nbsp;нас</h2>
 
-                <p>Наша компания всего за 2 года успешно завершила ремонт в более чем в <span class="colored">200 квартирах и помещениях.</span>
+                <p>
+                    Наша компания всего за 2 года успешно завершила ремонт в более чем в <span class="colored">200 квартирах и помещениях.</span>
                     А
                     это значит, что 200 людей теперь живут и&nbsp;работают в комфортных условиях благодаря нашей работе.
                 </p>
-                <p>Все наши сотрудники проходят строгий отбор — проверяем не&nbsp;только их рабочую квалификацию, но&nbsp;и&nbsp;личные
-                    качества: добросовестность, ответственность, перфекционизм.</p>
-                <p>Поэтому у нас работают настоящие профессионалы своего дела, которые любят и умеют делать качественный
-                    ремонт.</p>
+                <p>
+                    Все наши сотрудники проходят строгий отбор — проверяем не&nbsp;только их рабочую квалификацию, но&nbsp;и&nbsp;личные
+                    качества: добросовестность, ответственность, перфекционизм.
+                </p>
+                <p>
+                    Поэтому у нас работают настоящие профессионалы своего дела, которые любят и умеют делать качественный
+                    ремонт.
+                </p>
 
                 <div class="foot">
-                    <p><span>200</span>
+                    <p>
+                        <span>200</span>
                         <small>выполненных проектов</small>
                     </p>
-                    <p><span>2</span>
+                    <p>
+                        <span>2</span>
                         <small>года работы</small>
                     </p>
                 </div>
@@ -203,12 +246,14 @@
                     <span class="img">
                         <img src="~/assets/images/content/dir.png" alt="alt">
                     </span>
-                    <p>Главное для нас — качество. Мы знаем, что от&nbsp;результата нашей работы во&nbsp;многом зависит
+                    <p>
+                        Главное для нас — качество. Мы знаем, что от&nbsp;результата нашей работы во&nbsp;многом зависит
                         комфортная
                         жизнь наших клиентов. Поэтому важно, чтобы окружающая обстановка была приятна для глаз, надежна
                         и&nbsp;соответствовала вашим вкусам. Я&nbsp;всегда на&nbsp;связи по&nbsp;любым вопросам — с
                         удовольствием подскажу,
-                        объясню и проконсультирую, как лучше сделать.</p>
+                        объясню и проконсультирую, как лучше сделать.
+                    </p>
                     <footer>
                         <h3>Максим Чернышов</h3>
                         <small>руководитель компании</small>
@@ -218,13 +263,15 @@
                     <span class="img">
                         <img src="~/assets/images/content/build.png" alt="alt">
                     </span>
-                    <p>Я&nbsp;много лет проработал в&nbsp;генподрядной организации, поэтому досконально знаю процесс
+                    <p>
+                        Я&nbsp;много лет проработал в&nbsp;генподрядной организации, поэтому досконально знаю процесс
                         строительства
                         и&nbsp;отделки домов. Наша компания при&nbsp;ремонте квартир, домов и&nbsp;коммерческих
                         помещений всегда
                         учитывает все особенности их&nbsp;строительства, проложенные коммуникации и&nbsp;другие детали,
                         на&nbsp;которые
-                        менее опытные специалисты просто не&nbsp;обратили&nbsp;бы внимания.</p>
+                        менее опытные специалисты просто не&nbsp;обратили&nbsp;бы внимания.
+                    </p>
                     <footer>
                         <h3>Роман Ашихмин</h3>
                         <small>руководитель строительства</small>
@@ -254,8 +301,10 @@
 
             <div class="projects-main-block__text slick-slider" data-slick="projectsMainText" id="projectsMainText">
                 <article class="slick-item">
-                    <h3>Ремонт струдии в Девяткино
-                        Всеволожский район.</h3>
+                    <h3>
+                        Ремонт струдии в Девяткино
+                        Всеволожский район.
+                    </h3>
                     <p>Относительно бюджетный ремонт студии в&nbsp;новостройке в&nbsp;г.Девяткино</p>
                     <footer>
                         <p class="col">
@@ -274,9 +323,11 @@
                 </article>
                 <article class="slick-item">
                     <h3>Lorem ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur autem cum eos error
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur autem cum eos error
                         exercitationem maxime non perferendis praesentium quaerat quam reiciendis repellendus, saepe
-                        similique soluta voluptate, voluptatibus. Asperiores, eos!</p>
+                        similique soluta voluptate, voluptatibus. Asperiores, eos!
+                    </p>
                     <footer>
                         <p class="col">
                             <small>площадь</small>
@@ -294,8 +345,10 @@
                 </article>
                 <article class="slick-item">
                     <h3>Lorem ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut fugit harum iste labore
-                        laudantium magnam numquam omnis reprehenderit vel!</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut fugit harum iste labore
+                        laudantium magnam numquam omnis reprehenderit vel!
+                    </p>
                     <footer>
                         <p class="col">
                             <small>площадь</small>
@@ -323,9 +376,11 @@
         <div class="wrapper">
             <header class="text-block">
                 <h2>Главная гордость — наши мастера</h2>
-                <p>Мы придерживаемся мнения, что для максимально качественного результата каждый специалист должен
+                <p>
+                    Мы придерживаемся мнения, что для максимально качественного результата каждый специалист должен
                     заниматься своим делом. Поэтому у нас нет “универсалов”, зато есть команда опытных специалистов,
-                    каждый из которых досконально разбирается в своей узкой сфере.</p>
+                    каждый из которых досконально разбирается в своей узкой сфере.
+                </p>
             </header>
 
             <div class="about-employees-block__slider" id="employeesSlider" data-slick="employeesSlider">
@@ -382,10 +437,12 @@
             <div class="testimonials-block__slider" id="testimonialsSlider" data-slick="testimonialsSlider">
                 <div class="slick-item">
                     <div class="content">
-                        <p>Благодарю Максима и его команду за работы по отделке нашей студии в Лондон Парке, сделали
+                        <p>
+                            Благодарю Максима и его команду за работы по отделке нашей студии в Лондон Парке, сделали
                             работы
                             в срок и по оптимальной цене. Сравнинивали с тремя организациями, их цена была ниже, никаких
-                            дополнительных работ больше не считали, все договоренности соблюдены!</p>
+                            дополнительных работ больше не считали, все договоренности соблюдены!
+                        </p>
                     </div>
                     <div class="foot">
                         <span>Павел А.</span>
@@ -396,9 +453,11 @@
                 </div>
                 <div class="slick-item">
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eaque nihil similique?
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eaque nihil similique?
                             Aperiam, autem culpa, delectus eveniet exercitationem harum hic in, iusto laboriosam magnam
-                            molestias neque quidem quisquam repudiandae unde?</p>
+                            molestias neque quidem quisquam repudiandae unde?
+                        </p>
                     </div>
                     <div class="foot">
                         <span>Павел А.</span>
@@ -409,8 +468,10 @@
                 </div>
                 <div class="slick-item">
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi consectetur
-                            corporis cum dicta necessitatibus recusandae, sequi tempora ut voluptatum!</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi consectetur
+                            corporis cum dicta necessitatibus recusandae, sequi tempora ut voluptatum!
+                        </p>
                     </div>
                     <div class="foot">
                         <span>Павел А.</span>
@@ -446,9 +507,11 @@
                         <span>Сколько по времени длится ремонт студии?</span>
                     </div>
                     <div class="accordion-content text-block">
-                        <p>Длительность ремонта зависит от многих факторов: от текущего состояния студии, от пожеланий
+                        <p>
+                            Длительность ремонта зависит от многих факторов: от текущего состояния студии, от пожеланий
                             заказчика, от сложности работы. При минимальной сложности и стандартном перечне необходимых
-                            работ ремонт студии может занимать от 3-х недель.</p>
+                            работ ремонт студии может занимать от 3-х недель.
+                        </p>
                     </div>
                 </div>
                 <div class="accordion">
@@ -456,9 +519,11 @@
                         <span>Люди каких национальностей работают в ваших бригадах?</span>
                     </div>
                     <div class="accordion-content text-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate eum eveniet maxime
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate eum eveniet maxime
                             modi nostrum quis vero. Debitis eligendi ex excepturi exercitationem magnam minus mollitia
-                            nihil quas quod quos, tenetur.</p>
+                            nihil quas quod quos, tenetur.
+                        </p>
                     </div>
                 </div>
                 <div class="accordion">
@@ -466,10 +531,12 @@
                         <span>Сколько стоит вызов сметчика на объект?</span>
                     </div>
                     <div class="accordion-content text-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, asperiores at
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, asperiores at
                             consectetur consequuntur deleniti ea eius et, ex explicabo fuga illo illum inventore ipsam
                             modi nam obcaecati officia officiis pariatur perferendis praesentium quam quibusdam
-                            similique tempora veritatis vero voluptates?</p>
+                            similique tempora veritatis vero voluptates?
+                        </p>
                     </div>
                 </div>
                 <div class="accordion">
@@ -477,11 +544,13 @@
                         <span>Предусмотрена ли гарантия на выполненные Вами работы?</span>
                     </div>
                     <div class="accordion-content text-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores autem debitis
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores autem debitis
                             delectus dignissimos distinctio dolorem ex facere fugit, id illo illum laborum magni maxime
                             molestias natus necessitatibus nihil non omnis perferendis porro quasi saepe temporibus.
                             Aliquam aliquid, asperiores assumenda cumque deserunt inventore magni qui reprehenderit
-                            sapiente sint temporibus ut.</p>
+                            sapiente sint temporibus ut.
+                        </p>
                     </div>
                 </div>
             </div>

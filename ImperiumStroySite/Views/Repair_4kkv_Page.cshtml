@@ -1,0 +1,550 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Repair_4kkv_Page>
+@{
+    Layout = "_Layout.cshtml";
+    var urlКартинкаЗаголокаСтраницы = Model.HeaderBackgroundImage.ToSafeImage(width:1920).Url;
+}
+
+    <main>
+        <section class="top-block-default">
+            <div class="top-block-default__bg rellax-bg">
+                <div class="rellax-item" data-rellax-speed="-6"
+                     style="background-image: url(@urlКартинкаЗаголокаСтраницы);"></div>
+            </div>
+            <div class="wrapper">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Ремонт 4-комнатной квартиры</a></li>
+                </ul>
+
+                <div class="top-block-default__text">
+                    <h1>Качественно и&nbsp;недорого сделаем ремонт <span class="colored">в&nbsp;вашей 4-комнатной квартиры</span></h1>
+                    <p>Ремонт 4-комнатной квартиры в СПБ любой сложности.</p>
+                </div>
+
+                <div class="submenu-placeholder"></div>
+                <div class="submenu">
+                    <div class="submenu-inner">
+                        <ul>
+                            <li><a href="#workFast" class="smooth-scroll">гарантия</a></li>
+                            <li><a href="#serviceSteps" class="smooth-scroll">порядок работы</a></li>
+                            <li><a href="#servicePrepare" class="smooth-scroll">Подготовка</a></li>
+                            <li><a href="#servicePrice" class="smooth-scroll">Стоимость</a></li>
+                            <li><a href="#serviceTestimonials" class="smooth-scroll">Отзывы</a></li>
+                            <li><a href="#faqBlock" class="smooth-scroll">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-service dark-bg" id="workFast">
+            <div class="wrapper">
+                <div class="block-service__row">
+                    <div class="text-block block-service__text">
+                        <h2>Работаем быстро и&nbsp;с&nbsp;гарантией</h2>
+                        <p>
+                            Мы знаем, насколько важен для владельцев 4-комнатной квартиры качественный ремонт. Обычно такие квартиры —
+                            небольшие по метражу, поэтому на ограниченной площади нужно умело разместить много элементов. И
+                            без продуманного ремонта сделать это сложно.
+                        </p>
+                        <p>
+                            Мы знаем, как отремонтировать студию, чтобы вы не чувствовали себя в ней стесненно — <span class="colored">
+                                учтем все
+                                ваши пожелания и сделаем ремонт на совесть,
+                            </span> чтобы вам еще долго не пришлось о нем
+                            беспокоиться.
+                        </p>
+                        <footer class="block-service__prices">
+                            <p>
+                                <span>от 2 500 руб.</span>
+                                <small>за 1 кв. метр.</small>
+                            </p>
+                            <p>
+                                <span>21 день</span>
+                                <small>на ремонт</small>
+                            </p>
+                            <p>
+                                <span>12 мес.</span>
+                                <small>гарантии</small>
+                            </p>
+                        </footer>
+                    </div>
+                    <div class="block-service__img">
+                        <div class="img">
+                            <img src="~/assets/images/content/service1.png" alt="alt">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-service" id="servicePlan">
+            <div class="wrapper">
+                <div class="block-service__row">
+                    <div class="block-service__img">
+                        <div class="img">
+                            <img src="~/assets/images/content/service2.png" alt="alt">
+                        </div>
+                        <div class="icon">
+                            <svg class="icon icon-service-plan"><use xlink:href="~/assets/images/svg-symbols.svg#icon-service-plan"></use></svg>
+                        </div>
+                    </div>
+                    <div class="text-block block-service__text">
+                        <h2>Пора делать ремонт?</h2>
+                        <p>
+                            Вы купили студию в новостройке, а в ней <span class="colored">только голые стены и разводка труб в ванне?</span>
+                        </p>
+                        <p>
+                            Или, может, вы хотите обновить ремонт 4-комнатной квартиры, чтобы сделать ее более просторной и комфортной? В
+                            любом случае обращайтесь к нам — решим любую вашу задачу по ремонту 4-комнатной квартиры.
+                        </p>
+                        <footer>
+                            <button class="button-default inline" data-modal="#calcModal">рассчитать ремонт</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-steps-block block-default" id="serviceSteps">
+            <div class="wrapper">
+                <h2>Что нужно, чтобы заказать ремонт?</h2>
+
+                <ul>
+                    <li>
+                        <h3><a href="#">Расскажите о задаче</a></h3>
+                        <p>Опишите задачу, которую необходимо решить.</p>
+                    </li>
+                    <li>
+                        <h3>Смета и договор</h3>
+                        <p>Наш специалист приедет к&nbsp;вам, сделает замеры, рассчитает смету и&nbsp;подготовит договор</p>
+                    </li>
+                    <li>
+                        <h3>Закупка</h3>
+                        <p>Закупаем материалы и&nbsp;бесплатно доставляем к&nbsp;вам.</p>
+                    </li>
+                    <li>
+                        <h3>Сдача объекта</h3>
+                        <p>Вы принимаете каждый этап и&nbsp;после этого его оплачиваете.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="block-service" id="servicePrepare">
+            <div class="wrapper">
+                <div class="block-service__row">
+                    <div class="block-service__img">
+                        <div class="img">
+                            <img src="~/assets/images/content/service3.png" alt="alt">
+                        </div>
+                        <div class="icon">
+                            <svg class="icon icon-service-tool"><use xlink:href="~/assets/images/svg-symbols.svg#icon-service-tool"></use></svg>
+                        </div>
+                    </div>
+                    <div class="text-block block-service__text">
+                        <h2>Подготовка 4-комнатной квартиры к&nbsp;ремонту</h2>
+                        <p>Все заботы по ремонту мы берем на себя!</p>
+                        <p>
+                            От вас нужно только освободить помещение от&nbsp;мебели и посторонних предметов и покинуть его на&nbsp;время
+                            ремонта.
+                        </p>
+                        <p>
+                            Вам не нужно беспокоиться о других помещениях – мы&nbsp;работаем аккуратно и&nbsp;закрываем пол,
+                            окна и&nbsp;габаритную мебель плотной строительной пленкой.
+                        </p>
+                        <footer>
+                            <button class="button-default inline" data-modal="#calcModal">рассчитать ремонт</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-default main-tabs-block" id="servicePrice">
+            <div class="wrapper">
+                <h2>
+                    Сколько будет стоить
+                    ремонт вашего жилья?
+                </h2>
+
+
+                <div class="main-tabs-block__images slick-slider rellax-bigonly" data-rellax-speed="2"
+                     data-rellax-percentage="0.5" data-slick="mainTabsBlockImages" id="mainTabsBlockImages">
+                    <div class="slick-item">
+                        <img src="~/assets/images/content/mainTab1.png" alt="alt">
+                        <span>Этот тариф подойдет тем, кто хочет получить качественный результат, но&nbsp;ограничен в бюджете.</span>
+                    </div>
+                    <div class="slick-item">
+                        <img src="~/assets/images/content/mainTab2.png" alt="alt">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dolores.</span>
+                    </div>
+                </div>
+
+                <div class="main-tabs-block__text slick-slider slick-tabbed" data-slick="mainTabsBlockText"
+                     id="mainTabsBlockText">
+                    <div class="slick-item" data-slick-tab="Стандарт">
+                        <p>Какие работы мы можем выполнить по&nbsp;тарифу <a href="#">стандарт:</a></p>
+                        <ul>
+                            <li>поклейка обоев</li>
+                            <li>укладка паркетной доски или ламината</li>
+                            <li>установка натяжных потолков</li>
+                            <li>укладка плитки</li>
+                            <li>покраска потолков и еще <a href="#">16 позиций</a></li>
+                        </ul>
+                        <div class="foot">
+                            <p>
+                                <small>до</small>
+                                <span>10 000₽</span> за 1 м<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slick-item" data-slick-tab="Премиум">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis eveniet incidunt
+                            ipsam iste iure nostrum omnis quas quasi quia?
+                        </p>
+                        <ul>
+                            <li>поклейка обоев</li>
+                            <li>укладка паркетной доски или ламината</li>
+                            <li>установка натяжных потолков</li>
+                            <li>укладка плитки</li>
+                            <li>покраска потолков и еще <a href="#">16 позиций</a></li>
+                        </ul>
+                        <div class="foot">
+                            <p>
+                                <small>до</small>
+                                <span>10 000₽</span> за 1 м<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-service" id="serviceCalc">
+            <div class="wrapper">
+                <div class="block-service__row">
+                    <div class="block-service__img">
+                        <div class="img">
+                            <img src="assets/images/content/service4.png" alt="alt">
+                        </div>
+                        <div class="icon">
+                            <svg class="icon icon-service-calculator"><use xlink:href="~/assets/images/svg-symbols.svg#icon-service-calculator"></use></svg>
+                        </div>
+                    </div>
+                    <div class="text-block block-service__text">
+                        <h2>Узнать стоимость ремонта вашей квартиры</h2>
+                        <p>Пройдите короткий тест, и мы рассчитаем, сколько будет стоить ремонт вашей 4-комнатной квартиры.</p>
+                        <footer>
+                            <button class="button-default inline" data-modal="#calcModal">рассчитать стоимость</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-default projects-main-block">
+            <div class="wrapper">
+                <h2>4-комнатной квартиры, которые <span class="colored">мы&nbsp;отремонтировали</span></h2>
+
+                <div class="projects-main-block__images slick-slider rellax-bigonly" data-rellax-speed="2"
+                     data-rellax-percentage="0.5" data-slick="projectsMainImages"
+                     id="projectsMainImages">
+                    <div class="slick-item">
+                        <img src="~/assets/images/content/projects.png" alt="alt">
+                    </div>
+                    <div class="slick-item">
+                        <img src="~/assets/images/content/mainTab1.png" alt="alt">
+                    </div>
+                    <div class="slick-item">
+                        <img src="~/assets/images/content/mainTab2.png" alt="alt">
+                    </div>
+                </div>
+
+                <div class="projects-main-block__text slick-slider" data-slick="projectsMainText" id="projectsMainText">
+                    <article class="slick-item">
+                        <h3>
+                            Ремонт струдии в Девяткино
+                            Всеволожский район.
+                        </h3>
+                        <p>Относительно бюджетный ремонт 4-комнатной квартиры в&nbsp;новостройке в&nbsp;г.Девяткино</p>
+                        <footer>
+                            <p class="col">
+                                <small>площадь</small>
+                                <span>80 м<sup>2</sup></span>
+                            </p>
+                            <p class="col">
+                                <small>срок</small>
+                                <span>34 дня</span>
+                            </p>
+                            <p class="col">
+                                <small>цена за 1 м<sup>2</sup></small>
+                                <span>9 200 ₽</span>
+                            </p>
+                        </footer>
+                    </article>
+                    <article class="slick-item">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur autem cum eos error
+                            exercitationem maxime non perferendis praesentium quaerat quam reiciendis repellendus, saepe
+                            similique soluta voluptate, voluptatibus. Asperiores, eos!
+                        </p>
+                        <footer>
+                            <p class="col">
+                                <small>площадь</small>
+                                <span>80 м<sup>2</sup></span>
+                            </p>
+                            <p class="col">
+                                <small>срок</small>
+                                <span>34 дня</span>
+                            </p>
+                            <p class="col">
+                                <small>цена за 1 м<sup>2</sup></small>
+                                <span>9 200 ₽</span>
+                            </p>
+                        </footer>
+                    </article>
+                    <article class="slick-item">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut fugit harum iste labore
+                            laudantium magnam numquam omnis reprehenderit vel!
+                        </p>
+                        <footer>
+                            <p class="col">
+                                <small>площадь</small>
+                                <span>80 м<sup>2</sup></span>
+                            </p>
+                            <p class="col">
+                                <small>срок</small>
+                                <span>34 дня</span>
+                            </p>
+                            <p class="col">
+                                <small>цена за 1 м<sup>2</sup></small>
+                                <span>9 200 ₽</span>
+                            </p>
+                        </footer>
+                    </article>
+                </div>
+
+                <div class="projects-main-block__foot">
+                    <a href="#">Все проекты</a>
+                </div>
+            </div>
+        </section>
+        <section class="block-default main-about-block" id="serviceAbout">
+            <div class="wrapper">
+                <div class="main-about-block__text">
+                    <h2>Пара слов о&nbsp;нас</h2>
+
+                    <p>
+                        Наша компания всего за 2 года успешно завершила ремонт в более чем в <span class="colored">200 квартирах и помещениях.</span>
+                        А
+                        это значит, что 200 людей теперь живут и&nbsp;работают в комфортных условиях благодаря нашей работе.
+                    </p>
+                    <p>
+                        Все наши сотрудники проходят строгий отбор — проверяем не&nbsp;только их рабочую квалификацию, но&nbsp;и&nbsp;личные
+                        качества: добросовестность, ответственность, перфекционизм.
+                    </p>
+                    <p>
+                        Поэтому у нас работают настоящие профессионалы своего дела, которые любят и умеют делать качественный
+                        ремонт.
+                    </p>
+
+                    <div class="foot">
+                        <p>
+                            <span>200</span>
+                            <small>выполненных проектов</small>
+                        </p>
+                        <p>
+                            <span>2</span>
+                            <small>года работы</small>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main-about-block__persons rellax-bigonly" data-rellax-speed="2" data-rellax-percentage="0.5">
+                    <article>
+                        <!-- Картинки должны быть одинаковых размеров и с одинаковым положением на них лиц. -->
+                        <span class="img">
+                            <img src="~/assets/images/content/dir.png" alt="alt">
+                        </span>
+                        <p>
+                            Главное для нас — качество. Мы знаем, что от&nbsp;результата нашей работы во&nbsp;многом зависит
+                            комфортная
+                            жизнь наших клиентов. Поэтому важно, чтобы окружающая обстановка была приятна для глаз, надежна
+                            и&nbsp;соответствовала вашим вкусам. Я&nbsp;всегда на&nbsp;связи по&nbsp;любым вопросам — с
+                            удовольствием подскажу,
+                            объясню и проконсультирую, как лучше сделать.
+                        </p>
+                        <footer>
+                            <h3>Максим Чернышов</h3>
+                            <small>руководитель компании</small>
+                        </footer>
+                    </article>
+                    <article>
+                        <span class="img">
+                            <img src="~/assets/images/content/build.png" alt="alt">
+                        </span>
+                        <p>
+                            Я&nbsp;много лет проработал в&nbsp;генподрядной организации, поэтому досконально знаю процесс
+                            строительства
+                            и&nbsp;отделки домов. Наша компания при&nbsp;ремонте квартир, домов и&nbsp;коммерческих
+                            помещений всегда
+                            учитывает все особенности их&nbsp;строительства, проложенные коммуникации и&nbsp;другие детали,
+                            на&nbsp;которые
+                            менее опытные специалисты просто не&nbsp;обратили&nbsp;бы внимания.
+                        </p>
+                        <footer>
+                            <h3>Роман Ашихмин</h3>
+                            <small>руководитель строительства</small>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-block block-default" id="serviceTestimonials">
+            <div class="wrapper">
+                <h2>Что говорят о&nbsp;нашем ремонте?</h2>
+
+                <div class="testimonials-block__slider" id="testimonialsSlider" data-slick="testimonialsSlider">
+                    <div class="slick-item">
+                        <div class="content">
+                            <p>
+                                Благодарю Максима и его команду за работы по отделке нашей 4-комнатной квартиры в Лондон Парке, сделали
+                                работы
+                                в срок и по оптимальной цене. Сравнинивали с тремя организациями, их цена была ниже, никаких
+                                дополнительных работ больше не считали, все договоренности соблюдены!
+                            </p>
+                        </div>
+                        <div class="foot">
+                            <span>Павел А.</span>
+                            <div>
+                                <a href="#"><svg class="icon icon-vk"><use xlink:href="~/assets/images/svg-symbols.svg#icon-vk"></use></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eaque nihil similique?
+                                Aperiam, autem culpa, delectus eveniet exercitationem harum hic in, iusto laboriosam magnam
+                                molestias neque quidem quisquam repudiandae unde?
+                            </p>
+                        </div>
+                        <div class="foot">
+                            <span>Павел А.</span>
+                            <div>
+                                <a href="#"><svg class="icon icon-vk"><use xlink:href="~/assets/images/svg-symbols.svg#icon-vk"></use></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium commodi consectetur
+                                corporis cum dicta necessitatibus recusandae, sequi tempora ut voluptatum!
+                            </p>
+                        </div>
+                        <div class="foot">
+                            <span>Павел А.</span>
+                            <div>
+                                <a href="#"><svg class="icon icon-vk"><use xlink:href="~/assets/images/svg-symbols.svg#icon-vk"></use></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, molestiae.</p>
+                        </div>
+                        <div class="foot">
+                            <span>Павел А.</span>
+                            <div>
+                                <a href="#"><svg class="icon icon-vk"><use xlink:href="~/assets/images/svg-symbols.svg#icon-vk"></use></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-default questions-block" id="faqBlock">
+            <div class="wrapper">
+                <header class="block-default__header">
+                    <h2>Часто&nbsp;задаваемые вопросы</h2>
+                    <p>Не нашли ответа на свой вопрос? <a href="#">Оставьте заявку</a> и мы вас проконсультируем.</p>
+                </header>
+
+                <div class="questions-block__accordions">
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <span>Сколько по времени длится ремонт 4-комнатной квартиры?</span>
+                        </div>
+                        <div class="accordion-content text-block">
+                            <p>
+                                Длительность ремонта зависит от многих факторов: от текущего состояния 4-комнатной квартиры, от пожеланий
+                                заказчика, от сложности работы. При минимальной сложности и стандартном перечне необходимых
+                                работ ремонт 4-комнатной квартиры может занимать от 3-х недель.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <span>Люди каких национальностей работают в ваших бригадах?</span>
+                        </div>
+                        <div class="accordion-content text-block">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate eum eveniet maxime
+                                modi nostrum quis vero. Debitis eligendi ex excepturi exercitationem magnam minus mollitia
+                                nihil quas quod quos, tenetur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <span>Сколько стоит вызов сметчика на объект?</span>
+                        </div>
+                        <div class="accordion-content text-block">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, asperiores at
+                                consectetur consequuntur deleniti ea eius et, ex explicabo fuga illo illum inventore ipsam
+                                modi nam obcaecati officia officiis pariatur perferendis praesentium quam quibusdam
+                                similique tempora veritatis vero voluptates?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <span>Предусмотрена ли гарантия на выполненные Вами работы?</span>
+                        </div>
+                        <div class="accordion-content text-block">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores autem debitis
+                                delectus dignissimos distinctio dolorem ex facere fugit, id illo illum laborum magni maxime
+                                molestias natus necessitatibus nihil non omnis perferendis porro quasi saepe temporibus.
+                                Aliquam aliquid, asperiores assumenda cumque deserunt inventore magni qui reprehenderit
+                                sapiente sint temporibus ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callback-block">
+            <div class="bg" style="background-image: url(/assets/images/content/callback-bg.png);"></div>
+            <div class="wrapper">
+                <form action="#" class="form-default">
+                    <div class="form-default__message">
+                        <p>Ваше сообщение успешно отправлено!</p>
+                    </div>
+                    <div>
+                        <header>
+                            <h2>У вас остались вопросы?</h2>
+                            <p>Оставьте свой номер телефона и мы вам поможем</p>
+                        </header>
+                        <div>
+                            <label class="input-container">
+                                <input type="tel" placeholder="Ваш номер телефона">
+                            </label>
+                            <button class="button-default inline" type="submit">оставить заявку</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>

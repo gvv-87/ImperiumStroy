@@ -20,7 +20,7 @@ using Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	/// <summary>Список услуг</summary>
+	/// <summary>Список видов услуг</summary>
 	[PublishedContentModel("service_List_Page")]
 	public partial class Service_List_Page : PublishedContentModel, INavigatable, ISeoBase, ISitemapBase, IUrlNavigation
 	{
@@ -52,6 +52,69 @@ namespace Umbraco.Web.PublishedContentModels
 		public IPublishedContent HeaderBackgroundImage
 		{
 			get { return this.GetPropertyValue<IPublishedContent>("headerBackgroundImage"); }
+		}
+
+		///<summary>
+		/// Фото для секции рекламы заказа на ремонт
+		///</summary>
+		[ImplementPropertyType("photo_1")]
+		public IPublishedContent Photo_1
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("photo_1"); }
+		}
+
+		///<summary>
+		/// Фото к секции сколько будет стоить ремонт
+		///</summary>
+		[ImplementPropertyType("photo_2")]
+		public IPublishedContent Photo_2
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("photo_2"); }
+		}
+
+		///<summary>
+		/// Фото к сколько будет стоить ремонт премиум
+		///</summary>
+		[ImplementPropertyType("photo_3")]
+		public IPublishedContent Photo_3
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("photo_3"); }
+		}
+
+		///<summary>
+		/// Фото ремонт квартир
+		///</summary>
+		[ImplementPropertyType("photo_31")]
+		public IPublishedContent Photo_31
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("photo_31"); }
+		}
+
+		///<summary>
+		/// Фото ремонт коммерческого помещения
+		///</summary>
+		[ImplementPropertyType("photo_32")]
+		public IPublishedContent Photo_32
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("photo_32"); }
+		}
+
+		///<summary>
+		/// Фото ремонт частного дома
+		///</summary>
+		[ImplementPropertyType("photo_33")]
+		public IPublishedContent Photo_33
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("photo_33"); }
+		}
+
+		///<summary>
+		/// Фото ремонт комнаты
+		///</summary>
+		[ImplementPropertyType("photo_34")]
+		public IPublishedContent Photo_34
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("photo_34"); }
 		}
 
 		///<summary>

@@ -22,7 +22,7 @@ namespace Umbraco.Web.PublishedContentModels
 {
 	/// <summary>Ремонт квартиры-студии</summary>
 	[PublishedContentModel("service_Item_Page")]
-	public partial class Service_Item_Page : PublishedContentModel, INavigatable, ISeoBase, ISitemapBase, IUrlNavigation
+	public partial class Service_Item_Page : PublishedContentModel, INavigatable, IPerson, ISeoBase, ISitemapBase, IUrlNavigation
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "service_Item_Page";
@@ -46,7 +46,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// HeaderBackgroundImage: Фоновый рисунок заголовка страницы
+		/// Картинка фона заголовка страницы: Фоновый рисунок заголовка страницы
 		///</summary>
 		[ImplementPropertyType("headerBackgroundImage")]
 		public IPublishedContent HeaderBackgroundImage
@@ -70,6 +70,24 @@ namespace Umbraco.Web.PublishedContentModels
 		public bool UmbracoNavihide
 		{
 			get { return Umbraco.Web.PublishedContentModels.Navigatable.GetUmbracoNavihide(this); }
+		}
+
+		///<summary>
+		/// FirstName
+		///</summary>
+		[ImplementPropertyType("firstName")]
+		public string FirstName
+		{
+			get { return Umbraco.Web.PublishedContentModels.Person.GetFirstName(this); }
+		}
+
+		///<summary>
+		/// LastName
+		///</summary>
+		[ImplementPropertyType("lastName")]
+		public string LastName
+		{
+			get { return Umbraco.Web.PublishedContentModels.Person.GetLastName(this); }
 		}
 
 		///<summary>

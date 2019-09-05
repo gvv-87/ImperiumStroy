@@ -2158,6 +2158,11 @@
     <Content Include="Views\Contacts_Page.cshtml" />
     <Content Include="Views\Projects_Page.cshtml" />
     <Content Include="Views\Service_Item_Page.cshtml" />
+    <Content Include="Views\Repair_1kkv_Page.cshtml" />
+    <Content Include="Views\Repair_2kkv_Page.cshtml" />
+    <Content Include="Views\Repair_3kkv_Page.cshtml" />
+    <Content Include="Views\Repair_4kkv_Page.cshtml" />
+    <Content Include="Views\Partials\_Section_HowMuch.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

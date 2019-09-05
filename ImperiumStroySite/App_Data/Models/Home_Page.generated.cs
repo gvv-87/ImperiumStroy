@@ -46,12 +46,66 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// HeaderBackgroundImage: Картинка фона заголовка страницы Главная
+		/// Картинка фона заголовка страницы: Картинка фона заголовка страницы Главная
 		///</summary>
 		[ImplementPropertyType("headerBackgroundImage")]
 		public IPublishedContent HeaderBackgroundImage
 		{
 			get { return this.GetPropertyValue<IPublishedContent>("headerBackgroundImage"); }
+		}
+
+		///<summary>
+		/// Номер телефона (1)
+		///</summary>
+		[ImplementPropertyType("phoneNumber_1")]
+		public string PhoneNumber_1
+		{
+			get { return this.GetPropertyValue<string>("phoneNumber_1"); }
+		}
+
+		///<summary>
+		/// Номер телефона (2)
+		///</summary>
+		[ImplementPropertyType("phoneNumber_2")]
+		public string PhoneNumber_2
+		{
+			get { return this.GetPropertyValue<string>("phoneNumber_2"); }
+		}
+
+		///<summary>
+		/// Svg_Creator
+		///</summary>
+		[ImplementPropertyType("svg_Creator")]
+		public IPublishedContent Svg_Creator
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("svg_Creator"); }
+		}
+
+		///<summary>
+		/// Svg символ для соцсетей
+		///</summary>
+		[ImplementPropertyType("svg_Symbols")]
+		public IPublishedContent Svg_Symbols
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("svg_Symbols"); }
+		}
+
+		///<summary>
+		/// Текст девиза
+		///</summary>
+		[ImplementPropertyType("textMotto")]
+		public IHtmlString TextMotto
+		{
+			get { return this.GetPropertyValue<IHtmlString>("textMotto"); }
+		}
+
+		///<summary>
+		/// Текст обещания
+		///</summary>
+		[ImplementPropertyType("TextPromises")]
+		public IHtmlString TextPromises
+		{
+			get { return this.GetPropertyValue<IHtmlString>("TextPromises"); }
 		}
 
 		///<summary>

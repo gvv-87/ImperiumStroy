@@ -46,7 +46,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// HeaderBackgroundImage: Фоновая картинка заголовка страницы
+		/// Фоновая картинка заголовка страницы: Фоновая картинка заголовка страницы
 		///</summary>
 		[ImplementPropertyType("headerBackgroundImage")]
 		public IPublishedContent HeaderBackgroundImage
