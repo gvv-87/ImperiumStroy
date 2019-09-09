@@ -20,17 +20,9 @@ using Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	// Mixin content Type 1080 with alias "keywordsBase"
-	/// <summary>Keywords Base</summary>
-	public partial interface IKeywordsBase : IPublishedContent
-	{
-		/// <summary>Meta Keywords</summary>
-		string SeoKeywords { get; }
-	}
-
 	/// <summary>Keywords Base</summary>
 	[PublishedContentModel("keywordsBase")]
-	public partial class KeywordsBase : PublishedContentModel, IKeywordsBase
+	public partial class KeywordsBase : PublishedContentModel
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "keywordsBase";
@@ -59,10 +51,7 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("seoKeywords")]
 		public string SeoKeywords
 		{
-			get { return GetSeoKeywords(this); }
+			get { return this.GetPropertyValue<string>("seoKeywords"); }
 		}
-
-		/// <summary>Static getter for Meta Keywords</summary>
-		public static string GetSeoKeywords(IKeywordsBase that) { return that.GetPropertyValue<string>("seoKeywords"); }
 	}
 }

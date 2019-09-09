@@ -1,5 +1,40 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ErrorPage>
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.ErrorPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
 
 @{
-	Layout = null;
+    Layout = null;
+    var home = Model.AncestorOrSelf<Home_Page>();
 }
+
+<!DOCTYPE html>
+<html lang="@Model.GetCulture().TwoLetterISOLanguageName">
+<head>
+    <title>@Model.ErrorCode</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" type="image/x-icon" href="~/markup/favicon.ico">
+    <link rel="stylesheet" href="~/css/vendor/animate.css" />
+    <link rel="stylesheet" href="~/css/screen.css" />
+    <link rel="stylesheet" href="~/css/svg-symbols.css" />
+</head>
+
+<body class="preload">
+    <div class="page-wrap error-page">
+        <main>
+            <section class="error-block">
+                <div class="wrapper">
+                    <h1>@Model.ErrorCode&nbsp;&nbsp;error</h1>
+                    <p>@Model.ErrorMessage</p>
+                    <a href="@home.Url" class="button-default inline">Перейти на главную</a>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+</body>
+</html>

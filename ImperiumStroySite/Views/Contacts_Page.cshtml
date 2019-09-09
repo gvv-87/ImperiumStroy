@@ -1,7 +1,14 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Contacts_Page>
 @using PoLibrary
+
 @{
 	Layout = "_Layout.cshtml";
+
+    var Контакты                = Model;
+    var textНомерТелефона_1     = Контакты.PhoneNumber_1;
+    var textНомерТелефона_2     = Контакты.PhoneNumber_2;
+    var textMail                = Контакты.Email_1;
+
 }
 
 @*@foreach (var item in Model.People.GetAs<Person>())
@@ -19,29 +26,34 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
 
-                <h2>Санкт-Петербург, пр.&nbsp;Энгельса,&nbsp;12</h2>
+                <h2>@Контакты.Addresss.ReplaceLineBreaks()</h2>
                 <h3>контакты</h3>
 
                 <div class="columns">
                     <div>
-                        <p><a href="tel:89516664146
-">+ 7 951 666 41 46</a><span class="br"></span>
-                            <a href="tel:89117153259">+ 7 911 715 32 59</a><span class="br"></span>
-                            <a href="mailto:info@imperio-stroy.ru">info@imperio-stroy.ru</a></p>
+                        <p><a href="tel:@textНомерТелефона_1.ToPhone()">@textНомерТелефона_1</a><span class="br"></span>
+                           <a href="tel:@textНомерТелефона_2.ToPhone()">@textНомерТелефона_2</a><span class="br"></span>
+                           <a href="mailto:@textMail">@textMail</a></p>
                     </div>
                     <div>
                         <div class="social-icons">
-                            <a href="#"><svg class="icon icon-inst"><use xlink:href="~/assets/images/svg-symbols.svg#icon-inst"></use></svg></a>
-                            <a href="#"><svg class="icon icon-fb"><use xlink:href="~/assets/images/svg-symbols.svg#icon-fb"></use></svg></a>
-                            <a href="#"><svg class="icon icon-vk"><use xlink:href="~/assets/images/svg-symbols.svg#icon-vk"></use></svg></a>
+                            @if (Контакты.SocialNetworks != null && Контакты.SocialNetworks.Any())
+                            {
+                                <div class="social-icons">
+                                    @foreach (var item in Контакты.SocialNetworks.Cast<SocialNetwork>())
+                                    {
+                                        <a href="@item.Link" target="_blank"><svg class="icon @item.Icon"><use xlink:href="assets/images/svg-symbols.svg#@item.Icon"></use></svg></a>
+                                    }
+                                </div>
+                            }
                         </div>
                     </div>
                 </div>
 
                 <h3>режим работы</h3>
-                <p>По будням: с 09 до 20<span class="br"></span>
-                    Суббота: с 09 до 15.
-                </p>
+                <p>@Контакты.Text_OperatingMode.ReplaceLineBreaks()</p>
+                
+                
             </div>
         </div>
 

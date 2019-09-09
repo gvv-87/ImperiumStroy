@@ -4,17 +4,22 @@
     var navigation             = Главная.VisibleChildren();
     var urlОКомпании           = navigation.Where(x => x is About_Page).First().Url;
     var urlВидыУслуг           = navigation.Where(x => x is Service_List_Page).First().Url;
-    var urlКонтакты            = navigation.Where(x => x is Contacts_Page).First().Url;
     var urlВидыРемонтовКвартир = navigation.Where(x => x is Service_Category_Page).First().Url;
     var urlВыполненныеПроекты  = navigation.Where(x => x is Projects_Page).First().Url;
 
     var abPage                 = navigation.Where(x => x is About_Page).First();
 
-    var urlSvg_Symbol          = Главная.Svg_Symbols.Url;
-    var textНомерТелефона_1    = Главная.PhoneNumber_1;
-    var textНомерТелефона_2    = Главная.PhoneNumber_2;
+    var Контакты                = (Contacts_Page)navigation.Where(x => x is Contacts_Page).First();
+    var urlКонтакты             = Контакты.Url;
 
 
+    var urlSvg_Creator          = Главная.Svg_Creator.Url;
+
+    var textНомерТелефона_1     = Контакты.PhoneNumber_1;
+    var textНомерТелефона_2     = Контакты.PhoneNumber_2;
+    
+    var textMail                = Контакты.Email_1;
+    
 }
 
 <header class="page-header" id="pageHeader">
@@ -31,7 +36,7 @@
             <button class="callback not-small">оставить заявку</button>
 
             <div class="phone not-small">
-                <a href="tel:89516664146">@textНомерТелефона_1</a>
+                <a href="tel:@textНомерТелефона_1.ToPhone()">@textНомерТелефона_1</a>
             </div>
         </div>
     </div>
@@ -59,14 +64,20 @@
                 </nav>
             </div>
             <div class="contacts">
-                <p><a href="tel:89516664146">@textНомерТелефона_1</a></p>
-                <p><a href="tel:89117153259">@textНомерТелефона_2</a></p>
-                <p><a href="mailto:info@imperio-stroy.ru">info@imperio-stroy.ru</a></p>
+                <p><a href="tel:@textНомерТелефона_1.ToPhone()">@textНомерТелефона_1</a></p>
+                <p><a href="tel:@textНомерТелефона_2.ToPhone()">@textНомерТелефона_2</a></p>
+                <p><a href="mailto:@textMail">@textMail</a></p>
 
                 <div class="social-icons">
-                    <a href="#"><svg class="icon icon-inst"><use xlink:href="@urlSvg_Symbol#icon-inst"></use></svg></a>
-                    <a href="#"><svg class="icon icon-fb"><use xlink:href="@urlSvg_Symbol#icon-fb"></use></svg></a>
-                    <a href="#"><svg class="icon icon-vk"><use xlink:href="@urlSvg_Symbol#icon-vk"></use></svg></a>
+                    @if (Контакты.SocialNetworks != null && Контакты.SocialNetworks.Any())
+                    {
+                        <div class="social-icons">
+                            @foreach (var item in Контакты.SocialNetworks.Cast<SocialNetwork>())
+                            {
+                                <a href="@item.Link" target="_blank"><svg class="icon @item.Icon"><use xlink:href="~/assets/images/svg-symbols.svg#@item.Icon"></use></svg></a>
+                            }
+                        </div>
+                    }
                 </div>
 
                 <button class="callback not-small">оставить заявку</button>

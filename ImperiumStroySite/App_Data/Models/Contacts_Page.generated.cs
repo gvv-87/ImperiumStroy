@@ -46,6 +46,78 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Адрес: Юридический адрес
+		///</summary>
+		[ImplementPropertyType("addresss")]
+		public string Addresss
+		{
+			get { return this.GetPropertyValue<string>("addresss"); }
+		}
+
+		///<summary>
+		/// Електронная почта
+		///</summary>
+		[ImplementPropertyType("email_1")]
+		public string Email_1
+		{
+			get { return this.GetPropertyValue<string>("email_1"); }
+		}
+
+		///<summary>
+		/// Контакты: Заголовок области контактов
+		///</summary>
+		[ImplementPropertyType("label_Contacts")]
+		public string Label_Contacts
+		{
+			get { return this.GetPropertyValue<string>("label_Contacts"); }
+		}
+
+		///<summary>
+		/// Режим работы: Заголовок области режима работы
+		///</summary>
+		[ImplementPropertyType("label_OpertingMode")]
+		public string Label_OpertingMode
+		{
+			get { return this.GetPropertyValue<string>("label_OpertingMode"); }
+		}
+
+		///<summary>
+		/// Номер телефона (1)
+		///</summary>
+		[ImplementPropertyType("phoneNumber_1")]
+		public string PhoneNumber_1
+		{
+			get { return this.GetPropertyValue<string>("phoneNumber_1"); }
+		}
+
+		///<summary>
+		/// Номер телефона (2)
+		///</summary>
+		[ImplementPropertyType("phoneNumber_2")]
+		public string PhoneNumber_2
+		{
+			get { return this.GetPropertyValue<string>("phoneNumber_2"); }
+		}
+
+		///<summary>
+		/// Социальные сети
+		///</summary>
+		[ImplementPropertyType("socialNetworks")]
+		public IEnumerable<IPublishedContent> SocialNetworks
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("socialNetworks"); }
+		}
+
+		///<summary>
+		/// Текст режима работы: Текст описания режима работы
+		///</summary>
+		[ImplementPropertyType("text_OperatingMode")]
+		public string Text_OperatingMode
+		{
+			get { return this.GetPropertyValue<string>("text_OperatingMode"); }
+		}
+
+		///<summary>
 		/// Навигационный заголовок: Заголовок для навигационных элементов
 		///</summary>
 		[ImplementPropertyType("naviTitle")]

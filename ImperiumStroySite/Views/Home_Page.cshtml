@@ -1,53 +1,77 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Home_Page>
+@using PoLibrary
+@using Umbraco.Core.Models
+
 
 @{
     Layout = "_Layout.cshtml";
 
-    var textОбещания = Model.TextPromises;
-    var textДевиза   = Model.TextMotto;
+    //-- Девиз -------------------------------
+    string[] textДевиза = Model.StringsMotto.ToArray();
+    int m = textДевиза.Length;
+    string textДевиза_1 = (m > 0) ? textДевиза[0].Trim() : "";
+    string textДевиза_2 = "";
+    for (int i = 1; i < m; i++) { textДевиза_2 += textДевиза[i]; }
 
-    var Главная                    = Model.AncestorOrSelf<Home_Page>();
-    var urlГлавная                  = Главная.Url;
-    var navigation                  = Главная.VisibleChildren();
-    var urlОКомпании                = navigation.Where(x => x is About_Page).First().Url;
-    var urlСписокУслуг              = navigation.Where(x => x is Service_List_Page).First().Url;
-    var urlРемонтКвСтудии           = navigation.Where(x => x is Service_Item_Page).First().Url;
 
-    var urlКонтакты                 = navigation.Where(x => x is Contacts_Page).First().Url;
-    var urlВидыРемонтовКвартир      = navigation.Where(x => x is Service_Category_Page).First().Url;
-    var urlВыполненныеПроекты       = navigation.Where(x => x is Projects_Page).First().Url;
-    var urlРемонт_1ккв              = navigation.Where(x => x is Repair_1kkv_Page).First().Url;
-    var urlРемонт_2ккв              = navigation.Where(x => x is Repair_2kkv_Page).First().Url;
-    var urlРемонт_3ккв              = navigation.Where(x => x is Repair_3kkv_Page).First().Url;
-    var urlРемонт_4ккв              = navigation.Where(x => x is Repair_4kkv_Page).First().Url;
+    //-- Обещания -------------------------------
+    string[] menuДевиза = Model.MenuMotto.ToArray();
+    //string   textОбещания   = Model.TextPromiss;
+    int n = menuДевиза.Length;
+    string пунктМеню = (n > 0) ? menuДевиза[0].Trim() : "";
+    string менюДевиза = "";
+    string z = $@"""";
+    for (int i = 0; i < n; i++) { менюДевиза += z + menuДевиза[i].Trim() + z + ((i != (n - 1)) ? "," : ""); }
 
-    var abPage                      = navigation.Where(x => x is About_Page).First();
 
-    var urlКартинкаФонаЗаголовка    = Model.HeaderBackgroundImage.ToSafeImage(width: 1920).Url;
-    var urlНачальника               = abPage.GetPropertyValue("CompanyExecutivePicture").ToSafeImage().Url;
-    var urlПрораба                  = abPage.GetPropertyValue("ConstructionManagerPicture").ToSafeImage().Url;
+    var Главная = Model.AncestorOrSelf<Home_Page>();
+    var urlГлавная = Главная.Url;
+    var navigation = Главная.VisibleChildren();
+    var urlОКомпании = navigation.Where(x => x is About_Page).First().Url;
+    var urlСписокУслуг = navigation.Where(x => x is Service_List_Page).First().Url;
+    var urlРемонтКвСтудии = navigation.Where(x => x is Service_Item_Page).First().Url;
 
-    var urlФото_1                   = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
-    var urlФото_2                   = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
-    var urlФото_3                   = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
-    var urlФото_4                   = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
-    var urlФото_5                   = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
-    var urlФото_6                   = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
+    var urlКонтакты = navigation.Where(x => x is Contacts_Page).First().Url;
+    var urlВидыРемонтовКвартир = navigation.Where(x => x is Service_Category_Page).First().Url;
+    var urlВыполненныеПроекты = navigation.Where(x => x is Projects_Page).First().Url;
+    var urlРемонт_1ккв = navigation.Where(x => x is Repair_1kkv_Page).First().Url;
+    var urlРемонт_2ккв = navigation.Where(x => x is Repair_2kkv_Page).First().Url;
+    var urlРемонт_3ккв = navigation.Where(x => x is Repair_3kkv_Page).First().Url;
+    var urlРемонт_4ккв = navigation.Where(x => x is Repair_4kkv_Page).First().Url;
 
-    var urlPhoto_Callback_bg        = abPage.GetPropertyValue("Photo_Callback_bg").ToSafeImage().Url;
+    var abPage = (About_Page)navigation.Where(x => x is About_Page).First();
+
+    var urlКартинкаФонаЗаголовка = Model.HeaderBackgroundImage.ToSafeImage(width: 1920).Url;
+    var urlНачальника = abPage.GetPropertyValue("CompanyExecutivePicture").ToSafeImage().Url;
+    var urlПрораба = abPage.GetPropertyValue("ConstructionManagerPicture").ToSafeImage().Url;
+
+    var urlФото_1 = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
+    var urlФото_2 = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
+    var urlФото_3 = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
+    var urlФото_4 = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
+    var urlФото_5 = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
+    var urlФото_6 = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
+
+    var urlPhoto_Callback_bg = abPage.GetPropertyValue("Photo_Callback_bg").ToSafeImage().Url;
 
 
 }
-    <main>
-        <section class="block-hero" id="mainHero">
-            <div class="rellax-bg block-hero__bg">
-                <div class="rellax-item" data-rellax-speed="-6"
-                     style="background-image: url(@Model.HeaderBackgroundImage.ToSafeImage(width:1920).Url);"></div>
-            </div>
-            <div class="wrapper">
-                @textДевиза
-                @textОбещания
-                <button class="button-default inline">Рассчитать стоимость ремонта</button>
+<main>
+    <section class="block-hero" id="mainHero">
+        <div class="rellax-bg block-hero__bg">
+            <div class="rellax-item" data-rellax-speed="-6"
+                 style="background-image: url(@urlКартинкаФонаЗаголовка);"></div>
+        </div>
+        <div class="wrapper">
+            <h1>
+                @textДевиза_1 <span class="colored">
+                    @textДевиза_2
+                    <span class="switching-text"
+                          data-text-switching='[@менюДевиза]'>@пунктМеню</span>
+                    </span>
+                </h1>
+                @Model.TextPromiss
+                <button class="button-default inline" data-modal="#calcModal">Рассчитать стоимость ремонта</button>
             </div>
         </section>
 

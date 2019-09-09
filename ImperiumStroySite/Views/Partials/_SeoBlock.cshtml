@@ -23,14 +23,14 @@
     }
 
     // KEYWORDS [Deprecated]
-    if (Model is IKeywordsBase)
+    @*if (Model is IKeywordsBase)
     {
         IKeywordsBase keywords = Model as IKeywordsBase;
         if (!keywords.SeoKeywords.IsNullOrWhiteSpace())
         {
             <meta name="keywords" content="@keywords.SeoKeywords" />
         }
-    }
+    }*@
 
     // ROBOTS
     if (seo.SeoNoIndex || seo.SeoNoFollow)

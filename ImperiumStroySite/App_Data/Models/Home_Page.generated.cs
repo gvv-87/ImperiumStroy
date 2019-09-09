@@ -46,7 +46,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Картинка фона заголовка страницы: Картинка фона заголовка страницы Главная
+		/// Картинка фона заголовка страницы
 		///</summary>
 		[ImplementPropertyType("headerBackgroundImage")]
 		public IPublishedContent HeaderBackgroundImage
@@ -55,21 +55,30 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Номер телефона (1)
+		/// Images
 		///</summary>
-		[ImplementPropertyType("phoneNumber_1")]
-		public string PhoneNumber_1
+		[ImplementPropertyType("images")]
+		public IEnumerable<IPublishedContent> Images
 		{
-			get { return this.GetPropertyValue<string>("phoneNumber_1"); }
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("images"); }
 		}
 
 		///<summary>
-		/// Номер телефона (2)
+		/// Список для меню девиза
 		///</summary>
-		[ImplementPropertyType("phoneNumber_2")]
-		public string PhoneNumber_2
+		[ImplementPropertyType("menuMotto")]
+		public IEnumerable<string> MenuMotto
 		{
-			get { return this.GetPropertyValue<string>("phoneNumber_2"); }
+			get { return this.GetPropertyValue<IEnumerable<string>>("menuMotto"); }
+		}
+
+		///<summary>
+		/// Строки девиза
+		///</summary>
+		[ImplementPropertyType("stringsMotto")]
+		public IEnumerable<string> StringsMotto
+		{
+			get { return this.GetPropertyValue<IEnumerable<string>>("stringsMotto"); }
 		}
 
 		///<summary>
@@ -82,30 +91,12 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Svg символ для соцсетей
-		///</summary>
-		[ImplementPropertyType("svg_Symbols")]
-		public IPublishedContent Svg_Symbols
-		{
-			get { return this.GetPropertyValue<IPublishedContent>("svg_Symbols"); }
-		}
-
-		///<summary>
-		/// Текст девиза
-		///</summary>
-		[ImplementPropertyType("textMotto")]
-		public IHtmlString TextMotto
-		{
-			get { return this.GetPropertyValue<IHtmlString>("textMotto"); }
-		}
-
-		///<summary>
 		/// Текст обещания
 		///</summary>
-		[ImplementPropertyType("TextPromises")]
-		public IHtmlString TextPromises
+		[ImplementPropertyType("textPromiss")]
+		public IHtmlString TextPromiss
 		{
-			get { return this.GetPropertyValue<IHtmlString>("TextPromises"); }
+			get { return this.GetPropertyValue<IHtmlString>("textPromiss"); }
 		}
 
 		///<summary>

@@ -1,570 +1,3 @@
-D:\$00 ImperiumStroy\UmbracoCMS\bin\AutoMapper.Net4.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\UmbracoCMS.dll.config
-D:\$00 ImperiumStroy\UmbracoCMS\bin\UmbracoCMS.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\UmbracoCMS.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\csc.exe
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\csc.exe.config
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\csc.rsp
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\csi.exe
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\csi.exe.config
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\csi.rsp
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.Managed.Core.targets
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.AppContext.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Collections.Immutable.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Console.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.IO.Compression.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.IO.FileSystem.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.IO.Pipes.AccessControl.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.IO.Pipes.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Reflection.Metadata.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Security.AccessControl.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Security.Claims.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Security.Principal.Windows.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.ValueTuple.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Xml.XmlDocument.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Xml.XPath.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\vbc.exe
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\vbc.exe.config
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\vbc.rsp
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\VBCSCompiler.exe
-D:\$00 ImperiumStroy\UmbracoCMS\bin\roslyn\VBCSCompiler.exe.config
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Arknu.Umbraco.Relations.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\AutoMapper.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\businesslogic.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ClientDependency.Core.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ClientDependency.Core.Mvc.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\cms.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\controls.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Examine.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\HtmlAgilityPack.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ICSharpCode.SharpZipLib.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ImageProcessor.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ImageProcessor.Web.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\interfaces.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Jumoo.uSync.BackOffice.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Jumoo.uSync.Core.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Log4Net.Async.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\log4net.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Lucene.Net.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\MarkdownSharp.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.ApplicationBlocks.Data.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.AspNet.Identity.Core.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.AspNet.SignalR.Core.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.CodeAnalysis.CSharp.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.CodeAnalysis.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.IO.RecyclableMemoryStream.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Host.SystemWeb.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Security.Cookies.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Security.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Security.OAuth.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Web.Infrastructure.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\MiniProfiler.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\MySql.Data.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Newtonsoft.Json.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.Web.Common.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.Web.Common.WebHost.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.Web.Mvc.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Owin.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\PoLibrary.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Semver.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\SQLCE4Umbraco.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Collections.Immutable.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Data.SqlServerCe.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Data.SqlServerCe.Entity.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Net.Http.Formatting.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Reflection.Metadata.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Threading.Tasks.Dataflow.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.ValueTuple.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Helpers.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Http.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Http.WebHost.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Mvc.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Razor.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.WebPages.Deployment.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.WebPages.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.WebPages.Razor.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\TidyNet.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Umbraco.Core.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.DataLayer.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.editorControls.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.MacroEngines.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Umbraco.ModelsBuilder.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.providers.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Umbraco.Web.UI.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\UmbracoExamine.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\AutoMapper.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\AutoMapper.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\AutoMapper.Net4.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\businesslogic.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ClientDependency.Core.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ClientDependency.Core.Mvc.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\cms.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\controls.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Examine.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\HtmlAgilityPack.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\HtmlAgilityPack.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ImageProcessor.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ImageProcessor.Web.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\interfaces.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Lucene.Net.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.AspNet.Identity.Core.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.AspNet.SignalR.Core.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.CodeAnalysis.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.CodeAnalysis.CSharp.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.IO.RecyclableMemoryStream.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Host.SystemWeb.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Security.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Security.Cookies.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.Owin.Security.OAuth.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\MiniProfiler.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\MiniProfiler.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Newtonsoft.Json.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.Web.Common.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.Web.Common.WebHost.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Ninject.Web.Mvc.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\PoLibrary.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\PoLibrary.dll.config
-D:\$00 ImperiumStroy\UmbracoCMS\bin\SQLCE4Umbraco.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Collections.Immutable.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Net.Http.Formatting.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Reflection.Metadata.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Threading.Tasks.Dataflow.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.ValueTuple.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Helpers.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Http.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Http.WebHost.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Mvc.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.Razor.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.WebPages.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.WebPages.Deployment.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\System.Web.WebPages.Razor.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Umbraco.Core.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.DataLayer.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.editorControls.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.MacroEngines.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Umbraco.ModelsBuilder.pdb
-D:\$00 ImperiumStroy\UmbracoCMS\bin\umbraco.providers.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Umbraco.Web.UI.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\UmbracoExamine.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ru\System.Web.Helpers.resources.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ru\System.Web.Mvc.resources.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ru\System.Web.Razor.resources.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ru\System.Web.WebPages.resources.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ru\System.Web.WebPages.Deployment.resources.dll
-D:\$00 ImperiumStroy\UmbracoCMS\bin\ru\System.Web.WebPages.Razor.resources.dll
-D:\$00 ImperiumStroy\UmbracoCMS\obj\Debug\ImperiumStroy.csprojAssemblyReference.cache
-D:\$00 ImperiumStroy\UmbracoCMS\obj\Debug\ImperiumStroy.csproj.CoreCompileInputs.cache
-D:\$00 ImperiumStroy\UmbracoCMS\obj\Debug\ImperiumStroy.csproj.CopyComplete
-D:\$00 ImperiumStroy\UmbracoCMS\obj\Debug\UmbracoCMS.dll
-D:\$00 ImperiumStroy\UmbracoCMS\obj\Debug\UmbracoCMS.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\AutoMapper.Net4.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.dll.config
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\csc.exe
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\csc.exe.config
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\csc.rsp
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\csi.exe
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\csi.exe.config
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\csi.rsp
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.Managed.Core.targets
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.AppContext.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Collections.Immutable.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Console.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Compression.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.FileSystem.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Pipes.AccessControl.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Pipes.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Reflection.Metadata.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.AccessControl.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Claims.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Principal.Windows.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.ValueTuple.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.XmlDocument.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.XPath.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\vbc.exe
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\vbc.exe.config
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\vbc.rsp
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\VBCSCompiler.exe
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\roslyn\VBCSCompiler.exe.config
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Arknu.Umbraco.Relations.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\AutoMapper.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\businesslogic.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.Mvc.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\cms.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\controls.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Examine.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\HtmlAgilityPack.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ICSharpCode.SharpZipLib.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.Web.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\interfaces.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Jumoo.uSync.BackOffice.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Jumoo.uSync.Core.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Log4Net.Async.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\log4net.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Lucene.Net.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\MarkdownSharp.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.ApplicationBlocks.Data.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Core.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.SignalR.Core.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.CSharp.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.IO.RecyclableMemoryStream.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Host.SystemWeb.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.Cookies.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.OAuth.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Web.Infrastructure.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\MiniProfiler.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\MySql.Data.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Newtonsoft.Json.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.WebHost.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Mvc.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Owin.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Semver.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\SQLCE4Umbraco.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Collections.Immutable.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Data.SqlServerCe.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Data.SqlServerCe.Entity.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Net.Http.Formatting.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Reflection.Metadata.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Threading.Tasks.Dataflow.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.ValueTuple.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Helpers.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.WebHost.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Mvc.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Razor.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Deployment.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Razor.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\TidyNet.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Umbraco.Core.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.DataLayer.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.editorControls.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.MacroEngines.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Umbraco.ModelsBuilder.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.providers.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Umbraco.Web.UI.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\UmbracoExamine.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\AutoMapper.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\AutoMapper.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\AutoMapper.Net4.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\businesslogic.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.Mvc.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\cms.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\controls.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Examine.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\HtmlAgilityPack.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\HtmlAgilityPack.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.Web.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\interfaces.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Lucene.Net.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Core.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.SignalR.Core.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.CSharp.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.IO.RecyclableMemoryStream.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Host.SystemWeb.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.Cookies.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.OAuth.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\MiniProfiler.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\MiniProfiler.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Newtonsoft.Json.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.WebHost.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Mvc.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\PoLibrary.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll.config
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\SQLCE4Umbraco.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Collections.Immutable.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Net.Http.Formatting.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Reflection.Metadata.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Threading.Tasks.Dataflow.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.ValueTuple.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Helpers.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.WebHost.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Mvc.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.Razor.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Deployment.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Razor.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Umbraco.Core.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.DataLayer.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.editorControls.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.MacroEngines.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Umbraco.ModelsBuilder.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\umbraco.providers.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Umbraco.Web.UI.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\UmbracoExamine.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Helpers.resources.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Mvc.resources.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Razor.resources.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.resources.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.Deployment.resources.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.Razor.resources.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csproj.CoreCompileInputs.cache
-D:\$00 ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csproj.CopyComplete
-D:\$00 ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.dll
-D:\$00 ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.pdb
-D:\$00 ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csprojAssemblyReference.cache
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\AutoMapper.Net4.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.dll.config
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\csc.exe
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\csc.exe.config
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\csc.rsp
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\csi.exe
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\csi.exe.config
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\csi.rsp
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.Managed.Core.targets
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.AppContext.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Collections.Immutable.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Console.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Compression.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.FileSystem.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Pipes.AccessControl.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Pipes.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Reflection.Metadata.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.AccessControl.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Claims.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Principal.Windows.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.ValueTuple.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.XmlDocument.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.XPath.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\vbc.exe
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\vbc.exe.config
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\vbc.rsp
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\VBCSCompiler.exe
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\VBCSCompiler.exe.config
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Arknu.Umbraco.Relations.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\AutoMapper.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\businesslogic.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.Mvc.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\cms.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\controls.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Examine.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\HtmlAgilityPack.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ICSharpCode.SharpZipLib.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.Web.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\interfaces.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Jumoo.uSync.BackOffice.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Jumoo.uSync.Core.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Log4Net.Async.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\log4net.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Lucene.Net.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\MarkdownSharp.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.ApplicationBlocks.Data.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Core.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.SignalR.Core.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.CSharp.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.IO.RecyclableMemoryStream.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Host.SystemWeb.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.Cookies.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.OAuth.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Web.Infrastructure.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\MiniProfiler.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\MySql.Data.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Newtonsoft.Json.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.WebHost.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Mvc.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Owin.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Semver.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\SQLCE4Umbraco.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Collections.Immutable.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Data.SqlServerCe.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Data.SqlServerCe.Entity.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Net.Http.Formatting.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Reflection.Metadata.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Threading.Tasks.Dataflow.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.ValueTuple.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Helpers.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.WebHost.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Mvc.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Razor.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Deployment.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Razor.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\TidyNet.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.Core.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.DataLayer.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.editorControls.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.MacroEngines.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.ModelsBuilder.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.providers.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.Web.UI.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\UmbracoExamine.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\AutoMapper.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\AutoMapper.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\AutoMapper.Net4.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\businesslogic.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ClientDependency.Core.Mvc.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\cms.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\controls.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Examine.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\HtmlAgilityPack.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\HtmlAgilityPack.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImageProcessor.Web.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\interfaces.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Lucene.Net.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Core.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.SignalR.Core.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.CSharp.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.IO.RecyclableMemoryStream.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Host.SystemWeb.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.Cookies.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Security.OAuth.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\MiniProfiler.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\MiniProfiler.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Newtonsoft.Json.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.WebHost.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Mvc.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll.config
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\SQLCE4Umbraco.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Collections.Immutable.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Net.Http.Formatting.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Reflection.Metadata.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Threading.Tasks.Dataflow.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.ValueTuple.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Helpers.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Http.WebHost.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Mvc.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.Razor.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Deployment.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Web.WebPages.Razor.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.Core.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.DataLayer.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.editorControls.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.MacroEngines.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.ModelsBuilder.pdb
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.providers.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.Web.UI.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\UmbracoExamine.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Helpers.resources.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Mvc.resources.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Razor.resources.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.resources.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.Deployment.resources.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.Razor.resources.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csprojAssemblyReference.cache
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csproj.CoreCompileInputs.cache
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csproj.CopyComplete
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.dll
-D:\$00 WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.pdb
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\AutoMapper.Net4.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.dll.config
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ImperiumStroy.dll
@@ -586,25 +19,28 @@ C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsof
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.Managed.Core.targets
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.AppContext.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Collections.Immutable.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Console.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Globalization.Calendars.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Compression.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Compression.ZipFile.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.FileSystem.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.IO.Pipes.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Net.Http.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Net.Sockets.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Reflection.Metadata.dll
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.AccessControl.dll
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Claims.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Encoding.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.Primitives.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Security.Principal.Windows.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Threading.Tasks.Extensions.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.ValueTuple.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.ReaderWriter.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\roslyn\System.Xml.XmlDocument.dll
@@ -656,7 +92,6 @@ C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Com
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.WebHost.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Mvc.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Owin.dll
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Semver.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\SQLCE4Umbraco.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Collections.Immutable.dll
@@ -704,6 +139,7 @@ C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNe
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.AspNet.SignalR.Core.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeAnalysis.CSharp.xml
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.IO.RecyclableMemoryStream.pdb
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.Owin.Host.SystemWeb.xml
@@ -717,8 +153,6 @@ C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Common.WebHost.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Ninject.Web.Mvc.xml
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.pdb
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll.config
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\SQLCE4Umbraco.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Collections.Immutable.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\System.Net.Http.Formatting.xml
@@ -742,15 +176,16 @@ C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.ModelsB
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\umbraco.providers.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Umbraco.Web.UI.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\UmbracoExamine.xml
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Helpers.resources.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Mvc.resources.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.Razor.resources.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.resources.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.Deployment.resources.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\ru\System.Web.WebPages.Razor.resources.dll
-C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csprojAssemblyReference.cache
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csproj.CoreCompileInputs.cache
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csproj.CopyComplete
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.pdb
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.pdb
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll.config

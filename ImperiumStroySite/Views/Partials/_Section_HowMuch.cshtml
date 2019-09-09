@@ -1,4 +1,6 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@using PoLibrary
+
 @{
     var Главная = Model.AncestorOrSelf<Home_Page>();
     var navigation = Главная.VisibleChildren();
@@ -7,9 +9,7 @@
     var ВидыУслуг = navigation.Where(x => x is Service_List_Page).First();
     var urlВидыУслуг = ВидыУслуг.Url;
 
-    var urlКонтакты = navigation.Where(x => x is Contacts_Page).First().Url;
     var urlВидыРемонтовКвартир = navigation.Where(x => x is Service_Category_Page).First().Url;
-
     var urlВыполненныеПроекты = navigation.Where(x => x is Projects_Page).First().Url;
 
     var abPage = navigation.Where(x => x is About_Page).First();
@@ -28,9 +28,13 @@
 
 
 
-    var urlSvg_Symbol = Главная.Svg_Symbols.Url;
-    var textНомерТелефона_1 = Главная.PhoneNumber_1.ToPhone();
-    var textНомерТелефона_2 = Главная.PhoneNumber_2.ToPhone();
+    var Контакты = (Contacts_Page)navigation.Where(x => x is Contacts_Page).First();
+    var urlКонтакты = Контакты.Url;
+
+    var textНомерТелефона_1 = Контакты.PhoneNumber_1;
+    var textНомерТелефона_2 = Контакты.PhoneNumber_2;
+
+    var textMail = Контакты.Email_1;
 
 }
 

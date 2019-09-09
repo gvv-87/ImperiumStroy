@@ -20,17 +20,9 @@ using Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	// Mixin content Type 1079 with alias "headingBase"
-	/// <summary>Heading Base</summary>
-	public partial interface IHeadingBase : IPublishedContent
-	{
-		/// <summary>Заголовок 1 уровня</summary>
-		string SeoTopHeader { get; }
-	}
-
 	/// <summary>Heading Base</summary>
 	[PublishedContentModel("headingBase")]
-	public partial class HeadingBase : PublishedContentModel, IHeadingBase
+	public partial class HeadingBase : PublishedContentModel
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "headingBase";
@@ -59,10 +51,7 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("seoTopHeader")]
 		public string SeoTopHeader
 		{
-			get { return GetSeoTopHeader(this); }
+			get { return this.GetPropertyValue<string>("seoTopHeader"); }
 		}
-
-		/// <summary>Static getter for Заголовок 1 уровня</summary>
-		public static string GetSeoTopHeader(IHeadingBase that) { return that.GetPropertyValue<string>("seoTopHeader"); }
 	}
 }

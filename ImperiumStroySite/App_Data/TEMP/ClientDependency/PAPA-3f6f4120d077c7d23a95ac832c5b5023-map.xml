@@ -1,2 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<map />
+<map>
+  <item key="L3VtYnJhY28vYXNzZXRzL2Nzcy91bWJyYWNvLmNzczsvdW1icmFjb19jbGllbnQvdHJlZS90cmVlaWNvbnMuY3NzOy91bWJyYWNvL2xpYi9ib290c3RyYXAtc29jaWFsL2Jvb3RzdHJhcC1zb2NpYWwuY3NzOy91bWJyYWNvL2xpYi9mb250LWF3ZXNvbWUvY3NzL2ZvbnQtYXdlc29tZS5taW4uY3NzOw" file="C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\App_Data\TEMP\ClientDependency\2040173586_01c953a352d74cf198919d7720c513a0.cdC" compression="gzip" version="2040173586">
+    <files>
+      <file name="/umbraco/assets/css/umbraco.css" />
+      <file name="/umbraco_client/tree/treeicons.css" />
+      <file name="/umbraco/lib/bootstrap-social/bootstrap-social.css" />
+      <file name="/umbraco/lib/font-awesome/css/font-awesome.min.css" />
+    </files>
+  </item>
+  <item key="L0FwcF9QbHVnaW5zL1N2Z0ljb25QaWNrZXIvanMvc3ZnLmljb24ucGlja2VyLmpzOy9BcHBfUGx1Z2lucy91U3luYy91U3luY0Rhc2hib2FyZENvbnRyb2xsZXIuanM7L0FwcF9QbHVnaW5zL3VTeW5jL3VTeW5jRGFzaGJvYXJkU2VydmljZS5qczsvdW1icmFjby9kZXZlbG9wZXIvUmVsYXRpb25UeXBlcy9UcmVlTWVudS9BY3Rpb25EZWxldGVSZWxhdGlvblR5cGUuanM7L3VtYnJhY28vZGV2ZWxvcGVyL1JlbGF0aW9uVHlwZXMvVHJlZU1lbnUvQWN0aW9uTmV3UmVsYXRpb25UeXBlLmpzOw" file="C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\App_Data\TEMP\ClientDependency\2040173586_baf58c56c2de427a97af6f73918f3f7d.cdJ" compression="gzip" version="2040173586">
+    <files>
+      <file name="/App_Plugins/SvgIconPicker/js/svg.icon.picker.js" />
+      <file name="/App_Plugins/uSync/uSyncDashboardController.js" />
+      <file name="/App_Plugins/uSync/uSyncDashboardService.js" />
+      <file name="/umbraco/developer/RelationTypes/TreeMenu/ActionDeleteRelationType.js" />
+      <file name="/umbraco/developer/RelationTypes/TreeMenu/ActionNewRelationType.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL2pxdWVyeS9qcXVlcnkubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLzEuMS41L2FuZ3VsYXIubWluLmpzOy91bWJyYWNvL2xpYi91bmRlcnNjb3JlL3VuZGVyc2NvcmUtbWluLmpzOy91bWJyYWNvL2xpYi9tb21lbnQvbW9tZW50Lm1pbi5qczsvdW1icmFjby9saWIvanF1ZXJ5LXVpL2pxdWVyeS11aS5taW4uanM7L3VtYnJhY28vbGliL2pxdWVyeS11aS10b3VjaC1wdW5jaC9qcXVlcnkudWkudG91Y2gtcHVuY2guanM7L3VtYnJhY28vbGliL2FuZ3VsYXIvMS4xLjUvYW5ndWxhci1jb29raWVzLm1pbi5qczsvdW1icmFjby9saWIvYW5ndWxhci8xLjEuNS9hbmd1bGFyLW1vYmlsZS5qczsvdW1icmFjby9saWIvYW5ndWxhci8xLjEuNS9hbmd1bGFyLXNhbml0aXplLm1pbi5qczsvdW1icmFjby9saWIvYW5ndWxhci9hbmd1bGFyLXVpLXNvcnRhYmxlLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLWR5bmFtaWMtbG9jYWxlL3RtaER5bmFtaWNMb2NhbGUubWluLmpzOy91bWJyYWNvL2xpYi9uZy1maWxlLXVwbG9hZC9uZy1maWxlLXVwbG9hZC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXItbG9jYWwtc3RvcmFnZS9hbmd1bGFyLWxvY2FsLXN0b3JhZ2UubWluLmpzOy91bWJyYWNvL2xpYi9ib290c3RyYXAvanMvYm9vdHN0cmFwLjIuMy4yLm1pbi5qczsvdW1icmFjby9saWIvYm9vdHN0cmFwLXRhYmRyb3AvYm9vdHN0cmFwLXRhYmRyb3AuanM7L3VtYnJhY28vbGliL3VtYnJhY28vRXh0ZW5zaW9ucy5qczsvdW1icmFjby9saWIvdW1icmFjby9OYW1lc3BhY2VNYW5hZ2VyLmpzOy91bWJyYWNvL2xpYi91bWJyYWNvL0xlZ2FjeVVtYkNsaWVudE1nci5qczsvdW1icmFjby9saWIvdW1icmFjby9MZWdhY3lTcGVlY2hCdWJibGUuanM7L3VtYnJhY28vanMvYXBwLmpzOy91bWJyYWNvL2pzL3VtYnJhY28ucmVzb3VyY2VzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uZGlyZWN0aXZlcy5qczsvdW1icmFjby9qcy91bWJyYWNvLmZpbHRlcnMuanM7L3VtYnJhY28vanMvdW1icmFjby5zZXJ2aWNlcy5qczsvdW1icmFjby9qcy91bWJyYWNvLnNlY3VyaXR5LmpzOy91bWJyYWNvL2pzL3VtYnJhY28uY29udHJvbGxlcnMuanM7L3VtYnJhY28vanMvcm91dGVzLmpzOy91bWJyYWNvL2pzL2luaXQuanM7L0FwcF9QbHVnaW5zL0Fya251LlVtYnJhY28uUmVsYXRpb25zL2Fya251LnVtYnJhY28ucmVsYXRpb25zLmNvbnRyb2xsZXIuanM7L0FwcF9QbHVnaW5zL0Fya251LlVtYnJhY28uUmVsYXRpb25zL2Fya251LnVtYnJhY28ucmVsYXRpb25zLmNvbmZpZy5jb250cm9sbGVyLmpzOy9BcHBfUGx1Z2lucy9BcmtudS5VbWJyYWNvLlJlbGF0aW9ucy9hcmtudS51bWJyYWNvLnJlbGF0aW9ucy5yZXNvdXJjZS5qczsvQXBwX1BsdWdpbnMvTW9kZWxzQnVpbGRlci9tb2RlbHNidWlsZGVyLmNvbnRyb2xsZXIuanM7L0FwcF9QbHVnaW5zL01vZGVsc0J1aWxkZXIvbW9kZWxzYnVpbGRlci5yZXNvdXJjZS5qczs" file="C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\App_Data\TEMP\ClientDependency\2040173586_8dd314fe4a49426caed8561911a7ad37.cdJ" compression="gzip" version="2040173586">
+    <files>
+      <file name="/umbraco/lib/jquery/jquery.min.js" />
+      <file name="/umbraco/lib/angular/1.1.5/angular.min.js" />
+      <file name="/umbraco/lib/underscore/underscore-min.js" />
+      <file name="/umbraco/lib/moment/moment.min.js" />
+      <file name="/umbraco/lib/jquery-ui/jquery-ui.min.js" />
+      <file name="/umbraco/lib/jquery-ui-touch-punch/jquery.ui.touch-punch.js" />
+      <file name="/umbraco/lib/angular/1.1.5/angular-cookies.min.js" />
+      <file name="/umbraco/lib/angular/1.1.5/angular-mobile.js" />
+      <file name="/umbraco/lib/angular/1.1.5/angular-sanitize.min.js" />
+      <file name="/umbraco/lib/angular/angular-ui-sortable.js" />
+      <file name="/umbraco/lib/angular-dynamic-locale/tmhDynamicLocale.min.js" />
+      <file name="/umbraco/lib/ng-file-upload/ng-file-upload.min.js" />
+      <file name="/umbraco/lib/angular-local-storage/angular-local-storage.min.js" />
+      <file name="/umbraco/lib/bootstrap/js/bootstrap.2.3.2.min.js" />
+      <file name="/umbraco/lib/bootstrap-tabdrop/bootstrap-tabdrop.js" />
+      <file name="/umbraco/lib/umbraco/Extensions.js" />
+      <file name="/umbraco/lib/umbraco/NamespaceManager.js" />
+      <file name="/umbraco/lib/umbraco/LegacyUmbClientMgr.js" />
+      <file name="/umbraco/lib/umbraco/LegacySpeechBubble.js" />
+      <file name="/umbraco/js/app.js" />
+      <file name="/umbraco/js/umbraco.resources.js" />
+      <file name="/umbraco/js/umbraco.directives.js" />
+      <file name="/umbraco/js/umbraco.filters.js" />
+      <file name="/umbraco/js/umbraco.services.js" />
+      <file name="/umbraco/js/umbraco.security.js" />
+      <file name="/umbraco/js/umbraco.controllers.js" />
+      <file name="/umbraco/js/routes.js" />
+      <file name="/umbraco/js/init.js" />
+      <file name="/App_Plugins/Arknu.Umbraco.Relations/arknu.umbraco.relations.controller.js" />
+      <file name="/App_Plugins/Arknu.Umbraco.Relations/arknu.umbraco.relations.config.controller.js" />
+      <file name="/App_Plugins/Arknu.Umbraco.Relations/arknu.umbraco.relations.resource.js" />
+      <file name="/App_Plugins/ModelsBuilder/modelsbuilder.controller.js" />
+      <file name="/App_Plugins/ModelsBuilder/modelsbuilder.resource.js" />
+    </files>
+  </item>
+  <item key="L0FwcF9QbHVnaW5zL1N2Z0ljb25QaWNrZXIvY3NzL3N2Zy5pY29uLnBpY2tlci5jc3M7L0FwcF9QbHVnaW5zL3R3ZWFrcy9jc3MvdHdlYWtzLmNzczsvQXBwX1BsdWdpbnMvdVN5bmMvdVN5bmNEYXNoYm9hcmQuY3NzOw" file="C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\App_Data\TEMP\ClientDependency\2040173586_5a7c1249f5f540d2978d7d920ca1cf72.cdC" compression="gzip" version="2040173586">
+    <files>
+      <file name="/App_Plugins/SvgIconPicker/css/svg.icon.picker.css" />
+      <file name="/App_Plugins/tweaks/css/tweaks.css" />
+      <file name="/App_Plugins/uSync/uSyncDashboard.css" />
+    </files>
+  </item>
+</map>
