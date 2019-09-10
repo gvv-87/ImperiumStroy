@@ -55,15 +55,6 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Images
-		///</summary>
-		[ImplementPropertyType("images")]
-		public IEnumerable<IPublishedContent> Images
-		{
-			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("images"); }
-		}
-
-		///<summary>
 		/// Список для меню девиза
 		///</summary>
 		[ImplementPropertyType("menuMotto")]
@@ -97,6 +88,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public IHtmlString TextPromiss
 		{
 			get { return this.GetPropertyValue<IHtmlString>("textPromiss"); }
+		}
+
+		///<summary>
+		/// Виды ремонтов
+		///</summary>
+		[ImplementPropertyType("typesOfRepairs")]
+		public IEnumerable<IPublishedContent> TypesOfRepairs
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("typesOfRepairs"); }
 		}
 
 		///<summary>

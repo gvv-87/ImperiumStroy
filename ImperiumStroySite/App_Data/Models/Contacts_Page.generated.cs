@@ -118,6 +118,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Виды ремонтов
+		///</summary>
+		[ImplementPropertyType("typesOfRepairs")]
+		public string TypesOfRepairs
+		{
+			get { return this.GetPropertyValue<string>("typesOfRepairs"); }
+		}
+
+		///<summary>
 		/// Навигационный заголовок: Заголовок для навигационных элементов
 		///</summary>
 		[ImplementPropertyType("naviTitle")]

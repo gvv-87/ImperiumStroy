@@ -122,7 +122,19 @@
 
         <div class="realty-list-block__container">
             <!-- Картинки в этом блоке могут быть одинаковые. Их размер задаст ксс -->
-            <a href="@urlВидыРемонтовКвартир" class="realty-list-block__item">
+
+            @foreach (var item in Главная.TypesOfRepairs.Cast<ImageCaptionText>())
+            {
+                <a href="@urlВидыРемонтовКвартир" class="realty-list-block__item">
+                    <span class="img">
+                        <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="@item.Image.Url" alt="alt">
+                    </span>
+                    <span class="title">@item.Caption</span>
+                    <span class="desc">@item.Text.ReplaceLineBreaks()</span>
+                </a>
+            }
+            
+            @*<a href="@urlВидыРемонтовКвартир" class="realty-list-block__item">
                 <span class="img">
                     <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="@urlФото_31" alt="alt">
                 </span>
@@ -149,7 +161,7 @@
                 </span>
                 <span class="title">Ремонт комнаты</span>
                 <span class="desc">Если вы еще не готовы к полному ремонту своего жилья, мы можем выполнить ремонт в одной из комнат.</span>
-            </a>
+            </a>*@
         </div>
     </div>
 </section>
