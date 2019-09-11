@@ -7,7 +7,9 @@
     var urlГлавная                  = Главная.Url;
     var navigation                  = Главная.VisibleChildren();
     var urlОКомпании                = navigation.Where(x => x is About_Page).First().Url;
-    var urlВидыУслуг                = navigation.Where(x => x is Service_List_Page).First().Url;
+    
+    var ВидыРемонтов                = (Service_List_Page)navigation.Where(x => x is Service_List_Page).First();
+    var urlВидыРемонтов             = ВидыРемонтов.Url;
     var urlРемонтКвСтудии           = navigation.Where(x => x is Service_Item_Page).First().Url;
 
     var urlКонтакты                 = navigation.Where(x => x is Contacts_Page).First().Url;
@@ -24,16 +26,7 @@
     var urlНачальника               = abPage.GetPropertyValue("CompanyExecutivePicture").ToSafeImage().Url;
     var urlПрораба                  = abPage.GetPropertyValue("ConstructionManagerPicture").ToSafeImage().Url;
 
-    var urlФото_1                   = Model.Photo_1.ToSafeImage().Url;
-    var urlФото_2                   = Model.Photo_2.ToSafeImage().Url;
-    var urlФото_3                   = Model.Photo_3.ToSafeImage().Url;
-    var urlФото_31                  = Model.Photo_31.ToSafeImage().Url;
-    var urlФото_32                  = Model.Photo_32.ToSafeImage().Url;
-    var urlФото_33                  = Model.Photo_33.ToSafeImage().Url;
-    var urlФото_34                  = Model.Photo_34.ToSafeImage().Url;
-
     var urlPhoto_Callback_bg        = abPage.GetPropertyValue("Photo_Callback_bg").ToSafeImage().Url;
-
 
 }
 
@@ -50,11 +43,8 @@
                 </ul>
 
                 <div class="top-block-default__text">
-                    <h1>Заказать <span class="colored">ремонт квартиры, дома или офиса</span> в Санкт-Петербурге</h1>
-                    <p>
-                        На этой странице вы узнаете, по каким тарифам мы работаем и ремонт каких типов помещений можно у нас
-                        заказать.
-                    </p>
+                    @ВидыРемонтов.CaptionTextOfPage
+                    @ВидыРемонтов.BodyTextOfPage
                 </div>
             </div>
         </section>
@@ -64,25 +54,15 @@
                 <div class="block-service__row">
                     <div class="block-service__img">
                         <div class="img">
-                            <img src="@urlФото_1" alt="alt">
+                            <img src="@ВидыРемонтов.SectionAtUsPhoto.Url" alt="alt">
                         </div>
                         <div class="icon">
                             <svg class="icon icon-service-donation"><use xlink:href="~/assets/images/svg-symbols.svg#icon-service-donation"></use></svg>
                         </div>
                     </div>
                     <div class="text-block block-service__text">
-                        <h2>
-                            У нас выгодно заказывать
-                            ремонт квартиры, дома
-                            или офиса
-                        </h2>
-                        <p>Поможем с выбором стройматериалов, учтем в работе все ваши пожелания, будем работать исключительно в&nbsp;рамках сметы и сделаем все в срок. Также оказываем помощь при приемке квартир и осуществляем контроль чистовых материалов.</p>
-                        <p>При заказе комплексного ремонта <span class="colored">дарим подарок на&nbsp;выбор:</span></p>
-                        <ul>
-                            <li>Технический дизайн помещения</li>
-                            <li>Вывоз строительного мусора</li>
-                            <li>Скидка за каждый день просрочки</li>
-                        </ul>
+                        @ВидыРемонтов.SectionTextAtUsCaption
+                        @ВидыРемонтов.SectionTextAtUsBody
                     </div>
                 </div>
             </div>

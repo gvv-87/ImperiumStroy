@@ -24,245 +24,135 @@
     for (int i = 0; i < n; i++) { менюДевиза += z + menuДевиза[i].Trim() + z + ((i != (n - 1)) ? "," : ""); }
 
 
-    var Главная = Model.AncestorOrSelf<Home_Page>();
-    var urlГлавная = Главная.Url;
-    var navigation = Главная.VisibleChildren();
-    var urlОКомпании = navigation.Where(x => x is About_Page).First().Url;
-    var urlСписокУслуг = navigation.Where(x => x is Service_List_Page).First().Url;
+    var Главная           = Model.AncestorOrSelf<Home_Page>();
+    var urlГлавная        = Главная.Url;
+    var navigation        = Главная.VisibleChildren();
+    var urlОКомпании      = navigation.Where(x => x is About_Page).First().Url;
     var urlРемонтКвСтудии = navigation.Where(x => x is Service_Item_Page).First().Url;
 
-    var urlКонтакты = navigation.Where(x => x is Contacts_Page).First().Url;
-    var urlВидыРемонтовКвартир = navigation.Where(x => x is Service_Category_Page).First().Url;
-    var urlВыполненныеПроекты = navigation.Where(x => x is Projects_Page).First().Url;
-    var urlРемонт_1ккв = navigation.Where(x => x is Repair_1kkv_Page).First().Url;
-    var urlРемонт_2ккв = navigation.Where(x => x is Repair_2kkv_Page).First().Url;
-    var urlРемонт_3ккв = navigation.Where(x => x is Repair_3kkv_Page).First().Url;
-    var urlРемонт_4ккв = navigation.Where(x => x is Repair_4kkv_Page).First().Url;
-
-    var abPage = (About_Page)navigation.Where(x => x is About_Page).First();
-
-    var urlКартинкаФонаЗаголовка = Model.HeaderBackgroundImage.ToSafeImage(width: 1920).Url;
-    var urlНачальника = abPage.GetPropertyValue("CompanyExecutivePicture").ToSafeImage().Url;
-    var urlПрораба = abPage.GetPropertyValue("ConstructionManagerPicture").ToSafeImage().Url;
-
-    var urlФото_1 = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
-    var urlФото_2 = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
-    var urlФото_3 = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
-    var urlФото_4 = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
-    var urlФото_5 = abPage.GetPropertyValue("Photo_1").ToSafeImage().Url;
-    var urlФото_6 = abPage.GetPropertyValue("Photo_2").ToSafeImage().Url;
-
-    var urlPhoto_Callback_bg = abPage.GetPropertyValue("Photo_Callback_bg").ToSafeImage().Url;
-
-
 }
-<main>
-    <section class="block-hero" id="mainHero">
-        <div class="rellax-bg block-hero__bg">
-            <div class="rellax-item" data-rellax-speed="-6"
-                 style="background-image: url(@urlКартинкаФонаЗаголовка);"></div>
-        </div>
-        <div class="wrapper">
-            <h1>
-                @textДевиза_1 <span class="colored">
-                    @textДевиза_2
-                    <span class="switching-text"
-                          data-text-switching='[@менюДевиза]'>@пунктМеню</span>
-                    </span>
-                </h1>
-                @Model.TextPromiss
-                <button class="button-default inline" data-modal="#calcModal">Рассчитать стоимость ремонта</button>
+    <main>
+        <section class="block-hero" id="mainHero">
+            <div class="rellax-bg block-hero__bg">
+                <div class="rellax-item" data-rellax-speed="-6"
+                     style="background-image: url(@Model.HeaderBackgroundImage.ToSafeImage(width: 1920).Url);"></div>
             </div>
-        </section>
-
-        @Html.Partial("_Section_HowMuch")
-
-        <section class="block-default projects-main-block">
             <div class="wrapper">
-                <h2>Выполненные <span class="colored">проекты</span></h2>
-
-                <div class="projects-main-block__images slick-slider rellax-bigonly" data-rellax-speed="2" data-rellax-percentage="0.5" data-slick="projectsMainImages"
-                     id="projectsMainImages">
-                    <div class="slick-item">
-                        <img src="~/assets/images/content/projects.png" alt="alt">
-                    </div>
-                    <div class="slick-item">
-                        <img src="~/assets/images/content/mainTab1.png" alt="alt">
-                    </div>
-                    <div class="slick-item">
-                        <img src="~/assets/images/content/mainTab2.png" alt="alt">
-                    </div>
-                </div>
-
-                <div class="projects-main-block__text slick-slider" data-slick="projectsMainText" id="projectsMainText">
-                    <article class="slick-item">
-                        <h3>
-                            Ремонт в 3-x комнатной квартире,
-                            Всеволожский район.
-                        </h3>
-                        <p>Относительно бюджетный ремонт 3-х комнатной квартиры в новостройке в г.Кудрово. Что&nbsp;мы&nbsp;сделали:</p>
-                        <footer>
-                            <p class="col">
-                                <small>площадь</small>
-                                <span>80 м<sup>2</sup></span>
-                            </p>
-                            <p class="col">
-                                <small>срок</small>
-                                <span>34 дня</span>
-                            </p>
-                            <p class="col">
-                                <small>цена за 1 м<sup>2</sup></small>
-                                <span>9 200 ₽</span>
-                            </p>
-                        </footer>
-                    </article>
-                    <article class="slick-item">
-                        <h3>Lorem ipsum dolor.</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur autem cum eos error
-                            exercitationem maxime non perferendis praesentium quaerat quam reiciendis repellendus, saepe
-                            similique soluta voluptate, voluptatibus. Asperiores, eos!
-                        </p>
-                        <footer>
-                            <p class="col">
-                                <small>площадь</small>
-                                <span>80 м<sup>2</sup></span>
-                            </p>
-                            <p class="col">
-                                <small>срок</small>
-                                <span>34 дня</span>
-                            </p>
-                            <p class="col">
-                                <small>цена за 1 м<sup>2</sup></small>
-                                <span>9 200 ₽</span>
-                            </p>
-                        </footer>
-                    </article>
-                    <article class="slick-item">
-                        <h3>Lorem ipsum dolor.</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut fugit harum iste labore
-                            laudantium magnam numquam omnis reprehenderit vel!
-                        </p>
-                        <footer>
-                            <p class="col">
-                                <small>площадь</small>
-                                <span>80 м<sup>2</sup></span>
-                            </p>
-                            <p class="col">
-                                <small>срок</small>
-                                <span>34 дня</span>
-                            </p>
-                            <p class="col">
-                                <small>цена за 1 м<sup>2</sup></small>
-                                <span>9 200 ₽</span>
-                            </p>
-                        </footer>
-                    </article>
-                </div>
-
-                <div class="projects-main-block__foot">
-                    <a href="#">Все проекты</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="block-default main-about-block">
-            <div class="wrapper">
-                <div class="main-about-block__text">
-                    <h2>Пара слов о&nbsp;нас</h2>
-
-                    <p>
-                        Наша компания всего за 2 года успешно завершила ремонт в более чем в <span class="colored">200 квартирах и помещениях.</span>
-                        А
-                        это значит, что 200 людей теперь живут и&nbsp;работают в комфортных условиях благодаря нашей работе.
-                    </p>
-                    <p>
-                        Все наши сотрудники проходят строгий отбор — проверяем не&nbsp;только их рабочую квалификацию, но&nbsp;и&nbsp;личные
-                        качества: добросовестность, ответственность, перфекционизм.
-                    </p>
-                    <p>
-                        Поэтому у нас работают настоящие профессионалы своего дела, которые любят и умеют делать качественный
-                        ремонт.
-                    </p>
-
-                    <div class="foot">
-                        <p>
-                            <span>200</span>
-                            <small>выполненных проектов</small>
-                        </p>
-                        <p>
-                            <span>2</span>
-                            <small>года работы</small>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="main-about-block__persons rellax-bigonly" data-rellax-speed="2" data-rellax-percentage="0.5">
-                    <article>
-                        <!-- Картинки должны быть одинаковых размеров и с одинаковым положением на них лиц. -->
-                        <span class="img">
-                            <img src="~/assets/images/content/dir.png" alt="alt">
+                <h1>
+                    @textДевиза_1 <span class="colored">
+                        @textДевиза_2
+                        <span class="switching-text"
+                              data-text-switching='[@менюДевиза]'>@пунктМеню</span>
                         </span>
-                        <p>
-                            Главное для нас — качество. Мы знаем, что от&nbsp;результата нашей работы во&nbsp;многом зависит комфортная
-                            жизнь наших клиентов. Поэтому важно, чтобы окружающая обстановка была приятна для глаз, надежна
-                            и&nbsp;соответствовала вашим вкусам. Я&nbsp;всегда на&nbsp;связи по&nbsp;любым вопросам — с удовольствием подскажу,
-                            объясню и проконсультирую, как лучше сделать.
-                        </p>
-                        <footer>
-                            <h3>Максим Чернышов</h3>
-                            <small>руководитель компании</small>
-                        </footer>
-                    </article>
-                    <article>
-                        <span class="img">
-                            <img src="~/assets/images/content/build.png" alt="alt">
-                        </span>
-                        <p>
-                            Я&nbsp;много лет проработал в&nbsp;генподрядной организации, поэтому досконально знаю процесс строительства
-                            и&nbsp;отделки домов. Наша компания при&nbsp;ремонте квартир, домов и&nbsp;коммерческих помещений всегда
-                            учитывает все особенности их&nbsp;строительства, проложенные коммуникации и&nbsp;другие детали, на&nbsp;которые
-                            менее опытные специалисты просто не&nbsp;обратили&nbsp;бы внимания.
-                        </p>
-                        <footer>
-                            <h3>Роман Ашихмин</h3>
-                            <small>руководитель строительства</small>
-                        </footer>
-                    </article>
+                    </h1>
+                    @Model.TextPromiss
+                    <button class="button-default inline" data-modal="#calcModal">Рассчитать стоимость ремонта</button>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="block-default main-start-block">
-            <div class="wrapper">
-                <h2>С&nbsp;чего начать работу?</h2>
-                <ul>
-                    <li>
-                        <h3><a href="#">Делаем замеры.</a></h3>
-                        <p>Наш специалист приезжает к&nbsp;вам, делает замеры и&nbsp;составляет смету.</p>
-                    </li>
-                    <li>
-                        <h3>Договор.</h3>
-                        <p>Заключаем с&nbsp;вами договор и&nbsp;приступаем к&nbsp;ремонту</p>
-                    </li>
-                    <li>
-                        <h3>Закупка.</h3>
-                        <p>Закупаем материалы и&nbsp;бесплатно доставляем к&nbsp;вам</p>
-                    </li>
-                    <li>
-                        <h3>Рeмонт и&nbsp;Оплата</h3>
-                        <p>Поэтапно выполняем работы и&nbsp;получаем оплату.</p>
-                    </li>
-                    <li>
-                        <h3>Приемка.</h3>
-                        <p>Убираем за&nbsp;собой и&nbsp;сдаем готовый&nbsp;объект</p>
-                    </li>
-                    <li>
-                        <button class="button-default inline-big">Узнать стоимость ремонта</button>
-                    </li>
-                </ul>
-            </div>
-        </section>
+            @Html.Partial("_Section_HowMuch")
+            @Html.Partial("_Section_OfRealtyRepairTypes")
+            @Html.Partial("_Section_OfMadeRepairs")
 
-    </main>
+
+            <section class="block-default main-about-block">
+                <div class="wrapper">
+                    <div class="main-about-block__text">
+                        <h2>Пара слов о&nbsp;нас</h2>
+
+                        <p>
+                            Наша компания всего за 2 года успешно завершила ремонт в более чем в <span class="colored">200 квартирах и помещениях.</span>
+                            А
+                            это значит, что 200 людей теперь живут и&nbsp;работают в комфортных условиях благодаря нашей работе.
+                        </p>
+                        <p>
+                            Все наши сотрудники проходят строгий отбор — проверяем не&nbsp;только их рабочую квалификацию, но&nbsp;и&nbsp;личные
+                            качества: добросовестность, ответственность, перфекционизм.
+                        </p>
+                        <p>
+                            Поэтому у нас работают настоящие профессионалы своего дела, которые любят и умеют делать качественный
+                            ремонт.
+                        </p>
+
+                        <div class="foot">
+                            <p>
+                                <span>200</span>
+                                <small>выполненных проектов</small>
+                            </p>
+                            <p>
+                                <span>2</span>
+                                <small>года работы</small>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main-about-block__persons rellax-bigonly" data-rellax-speed="2" data-rellax-percentage="0.5">
+                        <article>
+                            <!-- Картинки должны быть одинаковых размеров и с одинаковым положением на них лиц. -->
+                            <span class="img">
+                                <img src="~/assets/images/content/dir.png" alt="alt">
+                            </span>
+                            <p>
+                                Главное для нас — качество. Мы знаем, что от&nbsp;результата нашей работы во&nbsp;многом зависит комфортная
+                                жизнь наших клиентов. Поэтому важно, чтобы окружающая обстановка была приятна для глаз, надежна
+                                и&nbsp;соответствовала вашим вкусам. Я&nbsp;всегда на&nbsp;связи по&nbsp;любым вопросам — с удовольствием подскажу,
+                                объясню и проконсультирую, как лучше сделать.
+                            </p>
+                            <footer>
+                                <h3>Максим Чернышов</h3>
+                                <small>руководитель компании</small>
+                            </footer>
+                        </article>
+                        
+                        <article>
+                            <span class="img">
+                                <img src="~/assets/images/content/build.png" alt="alt">
+                            </span>
+                            <p>
+                                Я&nbsp;много лет проработал в&nbsp;генподрядной организации, поэтому досконально знаю процесс строительства
+                                и&nbsp;отделки домов. Наша компания при&nbsp;ремонте квартир, домов и&nbsp;коммерческих помещений всегда
+                                учитывает все особенности их&nbsp;строительства, проложенные коммуникации и&nbsp;другие детали, на&nbsp;которые
+                                менее опытные специалисты просто не&nbsp;обратили&nbsp;бы внимания.
+                            </p>
+                            <footer>
+                                <h3>Роман Ашихмин</h3>
+                                <small>руководитель строительства</small>
+                            </footer>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="block-default main-start-block">
+                <div class="wrapper">
+                    <h2>С&nbsp;чего начать работу?</h2>
+                    <ul>
+                        <li>
+                            <h3><a href="#">Делаем замеры.</a></h3>
+                            <p>Наш специалист приезжает к&nbsp;вам, делает замеры и&nbsp;составляет смету.</p>
+                        </li>
+                        <li>
+                            <h3>Договор.</h3>
+                            <p>Заключаем с&nbsp;вами договор и&nbsp;приступаем к&nbsp;ремонту</p>
+                        </li>
+                        <li>
+                            <h3>Закупка.</h3>
+                            <p>Закупаем материалы и&nbsp;бесплатно доставляем к&nbsp;вам</p>
+                        </li>
+                        <li>
+                            <h3>Рeмонт и&nbsp;Оплата</h3>
+                            <p>Поэтапно выполняем работы и&nbsp;получаем оплату.</p>
+                        </li>
+                        <li>
+                            <h3>Приемка.</h3>
+                            <p>Убираем за&nbsp;собой и&nbsp;сдаем готовый&nbsp;объект</p>
+                        </li>
+                        <li>
+                            <button class="button-default inline-big">Узнать стоимость ремонта</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>

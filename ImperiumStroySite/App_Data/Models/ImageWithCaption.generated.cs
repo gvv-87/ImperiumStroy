@@ -20,7 +20,7 @@ using Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	/// <summary>Картинка с подписью</summary>
+	/// <summary>Картинка Заголовок Текст</summary>
 	[PublishedContentModel("imageWithCaption")]
 	public partial class ImageWithCaption : PublishedContentModel
 	{
@@ -46,7 +46,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Caption
+		/// Заголовок к тексту картинки
 		///</summary>
 		[ImplementPropertyType("caption")]
 		public string Caption
@@ -55,12 +55,21 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Image
+		/// Картинка
 		///</summary>
 		[ImplementPropertyType("image")]
 		public IPublishedContent Image
 		{
 			get { return this.GetPropertyValue<IPublishedContent>("image"); }
+		}
+
+		///<summary>
+		/// Текст к картинке
+		///</summary>
+		[ImplementPropertyType("textToPicture")]
+		public string TextToPicture
+		{
+			get { return this.GetPropertyValue<string>("textToPicture"); }
 		}
 	}
 }

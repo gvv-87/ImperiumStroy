@@ -1,0 +1,42 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@using PoLibrary
+
+@{
+    var Главная                 = Model.AncestorOrSelf<Home_Page>();
+    var navigation              = Главная.VisibleChildren();
+
+    var ВидыРемонтов               = (Service_List_Page)navigation.Where(x => x is Service_List_Page).First();
+    var urlВидыРемонтов            = ВидыРемонтов.Url;
+
+    var urlВидыРемонтовКвартир  = navigation.Where(x => x is Service_Category_Page).First().Url;
+
+}
+
+<section class="block-default realty-list-block">
+    <div class="wrapper">
+        
+        <header class="block-default__header">
+            @ВидыРемонтов.TitleOfSectionOfRealtyRepairTypes
+            <p>
+                @ВидыРемонтов.BodyTextOfSectionOfRealtyRepairTypes
+            </p>
+        </header>
+
+        <div class="realty-list-block__container">
+            <!-- Картинки в этом блоке могут быть одинаковые. Их размер задаст ксс -->
+            @foreach (ImageWithCaption item in ВидыРемонтов.ListOfRepairRealty)
+            {
+                <a href="@urlВидыРемонтовКвартир" class="realty-list-block__item">
+                    <span class="img">
+                        <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="@item.Image.Url" alt="alt">
+                    </span>
+                    <span class="title">@item.Caption</span>
+                    <span class="desc">@item.TextToPicture</span>
+                </a>
+            }
+        </div>
+    
+    </div>
+</section>
+
+

@@ -189,3 +189,4 @@ C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumS
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.pdb
 C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\bin\PoLibrary.dll.config
+C:\$00  ООО  WebEvolution\ImperiumStroy\ImperiumStroySite\obj\Debug\ImperiumStroy.csprojAssemblyReference.cache

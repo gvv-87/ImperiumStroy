@@ -55,15 +55,6 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Images
-		///</summary>
-		[ImplementPropertyType("images")]
-		public IEnumerable<IPublishedContent> Images
-		{
-			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("images"); }
-		}
-
-		///<summary>
 		/// Список для меню девиза
 		///</summary>
 		[ImplementPropertyType("menuMotto")]

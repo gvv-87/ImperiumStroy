@@ -2,155 +2,48 @@
 @using PoLibrary
 
 @{
-    var Главная = Model.AncestorOrSelf<Home_Page>();
-    var navigation = Главная.VisibleChildren();
-    var urlОКомпании = navigation.Where(x => x is About_Page).First().Url;
+    var Главная         = Model.AncestorOrSelf<Home_Page>();
+    var navigation      = Главная.VisibleChildren();
 
-    var ВидыУслуг = navigation.Where(x => x is Service_List_Page).First();
-    var urlВидыУслуг = ВидыУслуг.Url;
-
-    var urlВидыРемонтовКвартир = navigation.Where(x => x is Service_Category_Page).First().Url;
-    var urlВыполненныеПроекты = navigation.Where(x => x is Projects_Page).First().Url;
-
-    var abPage = navigation.Where(x => x is About_Page).First();
-
-
-    var urlНачальника = abPage.GetPropertyValue("CompanyExecutivePicture").ToSafeImage().Url;
-    var urlПрораба = abPage.GetPropertyValue("ConstructionManagerPicture").ToSafeImage().Url;
-
-    var urlФото_1 = ВидыУслуг.GetPropertyValue("Photo_1").ToSafeImage().Url;
-    var urlФото_2 = ВидыУслуг.GetPropertyValue("Photo_2").ToSafeImage().Url;
-    var urlФото_3 = ВидыУслуг.GetPropertyValue("Photo_3").ToSafeImage().Url;
-    var urlФото_31 = ВидыУслуг.GetPropertyValue("Photo_31").ToSafeImage().Url;
-    var urlФото_32 = ВидыУслуг.GetPropertyValue("Photo_32").ToSafeImage().Url;
-    var urlФото_33 = ВидыУслуг.GetPropertyValue("Photo_33").ToSafeImage().Url;
-    var urlФото_34 = ВидыУслуг.GetPropertyValue("Photo_34").ToSafeImage().Url;
-
-
-
-    var Контакты = (Contacts_Page)navigation.Where(x => x is Contacts_Page).First();
-    var urlКонтакты = Контакты.Url;
-
-    var textНомерТелефона_1 = Контакты.PhoneNumber_1;
-    var textНомерТелефона_2 = Контакты.PhoneNumber_2;
-
-    var textMail = Контакты.Email_1;
-
+    var ВидыРемонтов    = (Service_List_Page)navigation.Where(x => x is Service_List_Page).First();
+    var urlВидыРемонтов = ВидыРемонтов.Url;
 }
 
+<!-- Секция виды ремонта с расценками Стандарт/Премиум -->
 <section class="block-default main-tabs-block">
     <div class="wrapper">
-        <h2>
-            Сколько будет стоить
-            ремонт вашего жилья?
-        </h2>
 
+        @ВидыРемонтов.SectionHowMuchRepairTitile
 
         <div class="main-tabs-block__images slick-slider rellax-bigonly" data-rellax-speed="2" data-rellax-percentage="0.5" data-slick="mainTabsBlockImages" id="mainTabsBlockImages">
-            <div class="slick-item">
-                <img src="@urlФото_2" alt="alt">
-                <span>Этот тариф подойдет тем, кто хочет получить качественный результат, но&nbsp;ограничен в бюджете.</span>
-            </div>
-            <div class="slick-item">
-                <img src="@urlФото_3" alt="alt">
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dolores.</span>
-            </div>
-        </div>
-
-        <div class="main-tabs-block__text slick-slider slick-tabbed" data-slick="mainTabsBlockText"
-             id="mainTabsBlockText">
-            <div class="slick-item" data-slick-tab="Стандарт">
-                <p>Какие работы мы можем выполнить по&nbsp;тарифу <a href="#">стандарт:</a></p>
-                <ul>
-                    <li><a href="#">поклейка обоев</a></li>
-                    <li><a href="#">укладка паркетной доски или ламината</a></li>
-                    <li><a href="#">установка натяжных потолков</a></li>
-                    <li><a href="#">укладка плитки</a></li>
-                    <li><a href="#">покраска потолков</a></li>
-                    <li><a href="#">поклейка обоев</a></li>
-                    <li><a href="#">укладка паркетной доски или ламината</a></li>
-                    <li><a href="#">установка натяжных потолков</a></li>
-                    <li><a href="#">укладка плитки</a></li>
-                    <li><a href="#">покраска потолков</a></li>
-                    <li><a href="#">покраска потолков</a></li>
-                    <li><a href="#">поклейка обоев</a></li>
-                    <li><a href="#">укладка паркетной доски или ламината</a></li>
-                    <li><a href="#">установка натяжных потолков</a></li>
-                    <li><a href="#">укладка плитки</a></li>
-                    <li><a href="#">покраска потолков</a></li>
-                </ul>
-                <div class="foot">
-                    <p>
-                        <small>до</small>
-                        <span>10 000₽</span> за 1 м<sup>2</sup>
-                    </p>
+            @foreach (TypeRepair item in ВидыРемонтов.SectionHowMuchRepairList)
+            {
+                <div class="slick-item">
+                    <img src="@item.PictureTypeRepar.Url" alt="alt">
+                    <span>@item.TextToPicture</span>
                 </div>
-            </div>
-            <div class="slick-item" data-slick-tab="Премиум">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis eveniet incidunt
-                    ipsam iste iure nostrum omnis quas quasi quia?
-                </p>
-                <ul>
-                    <li>поклейка обоев</li>
-                    <li>укладка паркетной доски или ламината</li>
-                    <li>установка натяжных потолков</li>
-                    <li>укладка плитки</li>
-                    <li>покраска потолков и еще <a href="#">16 позиций</a></li>
-                </ul>
-                <div class="foot">
-                    <p>
-                        <small>до</small>
-                        <span>10 000₽</span> за 1 м<sup>2</sup>
-                    </p>
+            }
+        </div>
+
+        <div class="main-tabs-block__text slick-slider slick-tabbed" data-slick="mainTabsBlockText" id="mainTabsBlockText">
+            @foreach (TypeRepair item in ВидыРемонтов.SectionHowMuchRepairList)
+            {
+                <div class="slick-item" data-slick-tab="@item.Caption">
+                    <p>@item.RepairTypeDescription</p>
+                    <ul>
+                        @foreach (var menu in item.ListOfRepairWorks)
+                        {
+                            <li><a href="#">@menu</a></li>
+                        }
+                    </ul>
+                    <div class="foot">
+                        @item.PriceUpTo
+                    </div>
                 </div>
-            </div>
+            }
+
         </div>
 
-    </div>
-</section>
-
-<section class="block-default realty-list-block">
-    <div class="wrapper">
-        <header class="block-default__header">
-            <h2>Какую недвижимость <span class="colored">мы&nbsp;ремонтируем?</span></h2>
-            <p>
-                Любую. У нас есть опыт работы с разными объектами: от одиночных комнат до больших загородных
-                коттеджей.
-            </p>
-        </header>
-
-        <div class="realty-list-block__container">
-            <!-- Картинки в этом блоке могут быть одинаковые. Их размер задаст ксс -->
-            <a href="@urlВидыРемонтовКвартир" class="realty-list-block__item">
-                <span class="img">
-                    <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="@urlФото_31" alt="alt">
-                </span>
-                <span class="title">Ремонт квартиры</span>
-                <span class="desc">Придадим вашему жилью индивидуальный стиль и учтем все ваши пожелания.</span>
-            </a>
-            <a href="#" class="realty-list-block__item">
-                <span class="img">
-                    <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="@urlФото_32" alt="alt">
-                </span>
-                <span class="title">Ремонт коммерческого помещения</span>
-                <span class="desc">Сделаем ремонт в офисе, магазине, кафе и других помещениях для вашего бизнеса. </span>
-            </a>
-            <a href="#" class="realty-list-block__item">
-                <span class="img">
-                    <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="@urlФото_33" alt="alt">
-                </span>
-                <span class="title">Ремонт частного дома</span>
-                <span class="desc">Воплотим в реальность ваши фантазии о доме мечты. Сделаем такой ремонт, чтобы вы чувствовали себя в доме максимально комфортно.</span>
-            </a>
-            <a href="#" class="realty-list-block__item">
-                <span class="img">
-                    <img class="rellax-bigonly" data-rellax-speed="-1" data-rellax-percentage="0.5" src="@urlФото_34" alt="alt">
-                </span>
-                <span class="title">Ремонт комнаты</span>
-                <span class="desc">Если вы еще не готовы к полному ремонту своего жилья, мы можем выполнить ремонт в одной из комнат.</span>
-            </a>
-        </div>
     </div>
 </section>
 

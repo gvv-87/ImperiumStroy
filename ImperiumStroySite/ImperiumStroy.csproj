@@ -400,7 +400,6 @@
     <Content Include="css\rte-top-header.css" />
     <Content Include="css\screen.css" />
     <Content Include="css\svg-symbols.css" />
-    <Content Include="css\umbraco-starterkit-style.css" />
     <Content Include="css\vendor\animate.css" />
     <Content Include="css\vendor\family.css" />
     <Content Include="css\vendor\jquery.fancybox.css" />
@@ -2169,6 +2168,8 @@
     <Content Include="Views\Repair_3kkv_Page.cshtml" />
     <Content Include="Views\Repair_4kkv_Page.cshtml" />
     <Content Include="Views\Partials\_Section_HowMuch.cshtml" />
+    <Content Include="Views\Partials\_Section_OfRealtyRepairTypes.cshtml" />
+    <Content Include="Views\Partials\_Section_OfMadeRepairs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

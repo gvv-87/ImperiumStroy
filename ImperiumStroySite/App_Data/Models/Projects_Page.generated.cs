@@ -55,6 +55,24 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Список выполненных ремонтов общих
+		///</summary>
+		[ImplementPropertyType("listMadeRepairs")]
+		public IEnumerable<IPublishedContent> ListMadeRepairs
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("listMadeRepairs"); }
+		}
+
+		///<summary>
+		/// Заголовок секции Выполненные общие ремонты
+		///</summary>
+		[ImplementPropertyType("titleMadeRepairs")]
+		public IHtmlString TitleMadeRepairs
+		{
+			get { return this.GetPropertyValue<IHtmlString>("titleMadeRepairs"); }
+		}
+
+		///<summary>
 		/// Навигационный заголовок: Заголовок для навигационных элементов
 		///</summary>
 		[ImplementPropertyType("naviTitle")]

@@ -23,49 +23,53 @@
 
 <footer class="page-footer">
     <div class="wrapper">
+
         <div class="page-footer__main">
+            
             <div class="page-footer__nav">
 
-                <div class="col">
-                    <span class="title">Ремонт комнат</span>
-                    <ul>
-                        <li><a href="#">Ванная и туалет</a></li>
-                        <li><a href="#">Кухня</a></li>
-                        <li><a href="#">Гостиная</a></li>
-                        <li><a href="#">Спальня</a></li>
-                        <li><a href="#">Детская</a></li>
-                    </ul>
-                </div>
+                    <div class="col">
+                        <span class="title">Ремонт комнат</span>
+                        <ul>
+                            <li><a href="#">Ванная и туалет</a></li>
+                            <li><a href="#">Кухня</a></li>
+                            <li><a href="#">Гостиная</a></li>
+                            <li><a href="#">Спальня</a></li>
+                            <li><a href="#">Детская</a></li>
+                        </ul>
+                    </div>
 
-                <div class="col">
-                    <span class="title">Ремонт квартир</span>
-                    <ul>
-                        <li><a href="@urlРемонтКвСтудии">Квартира-студия</a></li>
-                        <li><a href="@urlРемонт_1ккв">1-комнатная квартира</a></li>
-                        <li><a href="@urlРемонт_2ккв">2-комнатная квартира</a></li>
-                        <li><a href="@urlРемонт_3ккв">3-комнатная квартира</a></li>
-                        <li><a href="@urlРемонт_4ккв">4-комнатная квартира</a></li>
-                    </ul>
-                </div>
+                    <div class="col">
+                        <span class="title">Ремонт квартир</span>
+                        <ul>
+                            <li><a href="@urlРемонтКвСтудии">Квартира-студия</a></li>
+                            <li><a href="@urlРемонт_1ккв">1-комнатная квартира</a></li>
+                            <li><a href="@urlРемонт_2ккв">2-комнатная квартира</a></li>
+                            <li><a href="@urlРемонт_3ккв">3-комнатная квартира</a></li>
+                            <li><a href="@urlРемонт_4ккв">4-комнатная квартира</a></li>
+                        </ul>
+                    </div>
 
-                <div class="col">
-                    <span class="title">Ремонт домов</span>
-                    <ul>
-                        <li><a href="#">Коттедж</a></li>
-                        <li><a href="#">Таунхаус</a></li>
-                        <li><a href="#">Загородный дом</a></li>
-                        <li><a href="#">Дача</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <span class="title">Нежилые помещения</span>
-                    <ul>
-                        <li><a href="#">Офис</a></li>
-                        <li><a href="#">Гостиница / Хостел</a></li>
-                        <li><a href="#">Ресторан / Кафе</a></li>
-                        <li><a href="#">Магазин</a></li>
-                    </ul>
-                </div>
+                    <div class="col">
+                        <span class="title">Ремонт домов</span>
+                        <ul>
+                            <li><a href="#">Коттедж</a></li>
+                            <li><a href="#">Таунхаус</a></li>
+                            <li><a href="#">Загородный дом</a></li>
+                            <li><a href="#">Дача</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <span class="title">Нежилые помещения</span>
+                        <ul>
+                            <li><a href="#">Офис</a></li>
+                            <li><a href="#">Гостиница / Хостел</a></li>
+                            <li><a href="#">Ресторан / Кафе</a></li>
+                            <li><a href="#">Магазин</a></li>
+                        </ul>
+                    </div>
+
             </div>
 
             <div class="page-footer__contacts">
@@ -83,12 +87,13 @@
                         <div class="social-icons">
                             @foreach (var item in Контакты.SocialNetworks.Cast<SocialNetwork>())
                             {
-                                <a href="@item.Link" target="_blank"><svg class="icon @item.Icon"><use xlink:href="/assets/images/svg-symbols.svg#@item.Icon"></use></svg></a>
+                                <a href="@item.Link" target="_blank"><svg class="icon @item.Icon"><use xlink:href="assets/images/svg-symbols.svg#@item.Icon"></use></svg></a>
                             }
                         </div>
                     }
                 </div>
             </div>
+
         </div>
 
         <div class="page-footer__dev">
@@ -99,6 +104,7 @@
                      alt="webevolution">
             </a>
         </div>
+
     </div>
 </footer>
 

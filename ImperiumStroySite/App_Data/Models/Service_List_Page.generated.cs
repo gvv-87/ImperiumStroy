@@ -20,7 +20,7 @@ using Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	/// <summary>Список видов услуг</summary>
+	/// <summary>Виды ремонтов жилья</summary>
 	[PublishedContentModel("service_List_Page")]
 	public partial class Service_List_Page : PublishedContentModel, INavigatable, ISeoBase, ISitemapBase, IUrlNavigation
 	{
@@ -46,7 +46,34 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// HeaderBackgroundImage: Фоновая картинка заголовка страницы
+		/// Текст тела страницы заголовка
+		///</summary>
+		[ImplementPropertyType("BodyTextOfPage")]
+		public IHtmlString BodyTextOfPage
+		{
+			get { return this.GetPropertyValue<IHtmlString>("BodyTextOfPage"); }
+		}
+
+		///<summary>
+		/// Текст тела секции Какую недвижимость мы ремонтируем
+		///</summary>
+		[ImplementPropertyType("bodyTextOfSectionOfRealtyRepairTypes")]
+		public string BodyTextOfSectionOfRealtyRepairTypes
+		{
+			get { return this.GetPropertyValue<string>("bodyTextOfSectionOfRealtyRepairTypes"); }
+		}
+
+		///<summary>
+		/// Текст заголовка страницы заголовка
+		///</summary>
+		[ImplementPropertyType("CaptionTextOfPage")]
+		public IHtmlString CaptionTextOfPage
+		{
+			get { return this.GetPropertyValue<IHtmlString>("CaptionTextOfPage"); }
+		}
+
+		///<summary>
+		/// Картинка фона заголовка страницы: Фоновая картинка заголовка страницы
 		///</summary>
 		[ImplementPropertyType("headerBackgroundImage")]
 		public IPublishedContent HeaderBackgroundImage
@@ -55,66 +82,66 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// Фото для секции рекламы заказа на ремонт
+		/// Виды ремонтов недвижимости
 		///</summary>
-		[ImplementPropertyType("photo_1")]
-		public IPublishedContent Photo_1
+		[ImplementPropertyType("listOfRepairRealty")]
+		public IEnumerable<IPublishedContent> ListOfRepairRealty
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("photo_1"); }
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("listOfRepairRealty"); }
 		}
 
 		///<summary>
-		/// Фото к секции сколько будет стоить ремонт
+		/// Фото секции У нас выгодно заказывать
 		///</summary>
-		[ImplementPropertyType("photo_2")]
-		public IPublishedContent Photo_2
+		[ImplementPropertyType("sectionAtUsPhoto")]
+		public IPublishedContent SectionAtUsPhoto
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("photo_2"); }
+			get { return this.GetPropertyValue<IPublishedContent>("sectionAtUsPhoto"); }
 		}
 
 		///<summary>
-		/// Фото к сколько будет стоить ремонт премиум
+		/// Списки видов ремонта Стандарт Премиум
 		///</summary>
-		[ImplementPropertyType("photo_3")]
-		public IPublishedContent Photo_3
+		[ImplementPropertyType("sectionHowMuchRepairList")]
+		public IEnumerable<IPublishedContent> SectionHowMuchRepairList
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("photo_3"); }
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("sectionHowMuchRepairList"); }
 		}
 
 		///<summary>
-		/// Фото ремонт квартир
+		/// Заголовок секции Сколько будет стоить   ремонт
 		///</summary>
-		[ImplementPropertyType("photo_31")]
-		public IPublishedContent Photo_31
+		[ImplementPropertyType("sectionHowMuchRepairTitile")]
+		public IHtmlString SectionHowMuchRepairTitile
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("photo_31"); }
+			get { return this.GetPropertyValue<IHtmlString>("sectionHowMuchRepairTitile"); }
 		}
 
 		///<summary>
-		/// Фото ремонт коммерческого помещения
+		/// Текст тела секции У нас выгодно заказывать
 		///</summary>
-		[ImplementPropertyType("photo_32")]
-		public IPublishedContent Photo_32
+		[ImplementPropertyType("sectionTextAtUsBody")]
+		public IHtmlString SectionTextAtUsBody
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("photo_32"); }
+			get { return this.GetPropertyValue<IHtmlString>("sectionTextAtUsBody"); }
 		}
 
 		///<summary>
-		/// Фото ремонт частного дома
+		/// Текст заголовка секции У нас выгодно заказывать
 		///</summary>
-		[ImplementPropertyType("photo_33")]
-		public IPublishedContent Photo_33
+		[ImplementPropertyType("sectionTextAtUsCaption")]
+		public IHtmlString SectionTextAtUsCaption
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("photo_33"); }
+			get { return this.GetPropertyValue<IHtmlString>("sectionTextAtUsCaption"); }
 		}
 
 		///<summary>
-		/// Фото ремонт комнаты
+		/// Заголовок секции Какую недвижимость мы ремонтируем
 		///</summary>
-		[ImplementPropertyType("photo_34")]
-		public IPublishedContent Photo_34
+		[ImplementPropertyType("titleOfSectionOfRealtyRepairTypes")]
+		public IHtmlString TitleOfSectionOfRealtyRepairTypes
 		{
-			get { return this.GetPropertyValue<IPublishedContent>("photo_34"); }
+			get { return this.GetPropertyValue<IHtmlString>("titleOfSectionOfRealtyRepairTypes"); }
 		}
 
 		///<summary>

@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@using PoLibrary
+
+@{
+    var Главная             = Model.AncestorOrSelf<Home_Page>();
+    var navigation          = Главная.VisibleChildren();
+
+    var ВыполненныеПроекты = (Projects_Page)navigation.Where(x => x is Projects_Page).First();
+}
+
+<section class="block-default projects-main-block">
+    <div class="wrapper">
+        @ВыполненныеПроекты.TitleMadeRepairs
+
+        <div class="projects-main-block__images slick-slider rellax-bigonly" data-rellax-speed="2" data-rellax-percentage="0.5" data-slick="projectsMainImages"
+             id="projectsMainImages">
+            @foreach (MadeRepair item in ВыполненныеПроекты.ListMadeRepairs)
+            {
+                <div class="slick-item"><img src="@item.Picture.Url" alt="alt"></div>
+            }
+        </div>
+
+        <div class="projects-main-block__text slick-slider" data-slick="projectsMainText" id="projectsMainText">
+            @foreach (MadeRepair item in ВыполненныеПроекты.ListMadeRepairs)
+            {
+                <article class="slick-item">
+                    @item.CaptionToPicture;
+                    @item.TextToPicture;
+                    <footer>
+                        <p class="col">
+                            <small>площадь</small>
+                            <span>@item.Square<sup>2</sup></span>
+                        </p>
+                        <p class="col">
+                            <small>срок</small>
+                            <span>@item.Term</span>
+                        </p>
+                        <p class="col">
+                            <small>цена за 1 м<sup>2</sup></small>
+                            <span>@item.Rate</span>
+                        </p>
+                    </footer>
+                </article>
+            }
+
+        </div>
+
+        <div class="projects-main-block__foot">
+            <a href="@ВыполненныеПроекты.Url">Все проекты</a>
+        </div>
+    </div>
+</section>
+
+
